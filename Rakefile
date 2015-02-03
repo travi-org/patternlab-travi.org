@@ -2,6 +2,12 @@ require 'tmpdir'
 
 destination = 'public'
 
+task :default => [:build]
+
+def run(command)
+    raise "Failed to execute '#{command}'" if !system(command)
+end
+
 desc 'Generate patternlab from Travis CI and publish to GitHub Pages.'
 task :travis do
   # if this is a pull request, do a simple build of the site and stop
@@ -40,5 +46,5 @@ end
 
 desc 'Generate patternlab'
 task :build do
-  system('php core/builder.php -g')
+  run('php core/builder.php -g')
 end
