@@ -27,7 +27,7 @@ task :travis do
     sh 'bundle exec rake build'
     fail "Build failed." unless Dir.exists? destination
     sh "git clone --branch #{deploy_branch} #{repo} #{dir}"
-    sh %Q(rsync -rt --del --exclude=".git" --exclude=".nojekyll" #{destination} #{dir})
+    sh %Q(rsync -rt --del --exclude=".git" --exclude=".nojekyll" #{destination}/ #{dir})
     Dir.chdir dir do
       # setup credentials so Travis CI can push to GitHub
       verbose false do
