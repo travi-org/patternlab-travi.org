@@ -1,6 +1,8 @@
 language: php
 php: 5.5
 
+install: bundle install
+
 script: bundle exec rake travis
 
 env:
