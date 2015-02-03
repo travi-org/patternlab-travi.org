@@ -1,4 +1,4 @@
-desc 'Generate deck from Travis CI and publish to GitHub Pages.'
+desc 'Generate patternlab from Travis CI and publish to GitHub Pages.'
 task :travis do
   # if this is a pull request, do a simple build of the site and stop
   if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
@@ -32,4 +32,9 @@ task :travis do
       end
     end
   end
+end
+
+desc 'Generate patternlab'
+task :build do
+  php core/builder.php -g
 end
