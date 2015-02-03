@@ -36,5 +36,5 @@ end
 
 desc 'Generate patternlab'
 task :build do
-  php core/builder.php -g
+  system('php core/builder.php -g')
 end
