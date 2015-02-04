@@ -105,6 +105,16 @@ header h1 a:active {
   font-style: normal;
   font-variant: normal; }
 
+header {
+  padding: 0;
+  background: transparent url("/resources/img/titleBanners/truckApex.jpg") no-repeat;
+  border-top: 1px solid #000;
+  height: 200px; }
+  header h1 {
+    margin: 30px 0 0;
+    padding-left: 100px;
+    font-size: 80px; }
+
 footer {
   font-size: .75em;
   font-variant: small-caps;
