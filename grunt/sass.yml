@@ -1,0 +1,7 @@
+compile:
+    files:
+        - expand: true
+          cwd: source/css/scss/travi
+          src: '**/*.scss'
+          dest: source/css
+          ext: .css

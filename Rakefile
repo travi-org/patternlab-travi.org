@@ -46,5 +46,6 @@ end
 
 desc 'Generate patternlab'
 task :build do
+  run('grunt build')
   run('php core/builder.php -g')
 end

@@ -1,0 +1,38 @@
+// TOP NAVIGATION
+nav {
+    background-color: $dark-red;
+
+    &.sideNav {
+        display: none;
+    }
+}
+
+#topNav {
+    margin: 0;
+    padding: 3px;
+    color: #000;
+    font-family: Impact, sans-serif;
+
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+        border: 0;
+
+        li {
+            margin-left: 0;
+            padding: 0 1px;
+            border: 0;
+        }
+    }
+
+    a {
+        color: #000;
+        background-color: transparent;
+        text-decoration: none;
+
+        &:hover {
+            color: $light-grey;
+            text-decoration: underline;
+        }
+    }
+}
