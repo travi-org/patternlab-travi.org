@@ -1,0 +1,27 @@
+nav {
+  background-color: #c80000; }
+  nav.sideNav {
+    display: none; }
+
+#topNav {
+  margin: 0;
+  padding: 3px;
+  color: #000;
+  font-family: Impact, sans-serif; }
+  #topNav ul {
+    margin-left: 0;
+    padding-left: 0;
+    border: 0; }
+    #topNav ul li {
+      margin-left: 0;
+      padding: 0 1px;
+      border: 0; }
+  #topNav a {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none; }
+    #topNav a:hover {
+      color: #c0c0c0;
+      text-decoration: underline; }
+
+/*# sourceMappingURL=travi.css.map */
