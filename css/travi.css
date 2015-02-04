@@ -94,4 +94,25 @@ nav.sideNav {
   -webkit-box-shadow: 3px 3px 4px #000;
   box-shadow: 3px 3px 4px #000; }
 
+header h1,
+header h1 a,
+header h1 a:visited,
+header h1 a:active {
+  color: #fff;
+  font-family: "Permanent Marker", "Franklin Gothic Demi Cond", sans-serif;
+  text-shadow: 5px 5px 5px #000;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal; }
+
+footer {
+  font-size: .75em;
+  font-variant: small-caps;
+  border-top: 1px solid #000;
+  margin-top: 5px;
+  background-color: transparent; }
+
+footer {
+  text-align: right; }
+
 /*# sourceMappingURL=travi.css.map */
