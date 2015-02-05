@@ -1,6 +1,7 @@
 $resources-directory: "../";
 
 @import "variables";
+@import "variables_d";
 
 @import "nav";
 @import "nav_d";
@@ -10,3 +11,8 @@ $resources-directory: "../";
 
 @import "footer";
 @import "footer_d";
+
+
+#organisms-header .sg-pattern-body {
+    width: $wrap-width;
+}
