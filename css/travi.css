@@ -94,6 +94,60 @@ nav.sideNav {
   -webkit-box-shadow: 3px 3px 4px #000;
   box-shadow: 3px 3px 4px #000; }
 
+h2,
+.entity-list-header {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #000;
+  color: #000;
+  background: #c80000;
+  font: 1.75em Impact, sans-serif;
+  font-variant: small-caps;
+  text-align: left; }
+
+h2 .sectionNav {
+  font-size: .55em;
+  float: right;
+  font-family: "Trebuchet MS", sans-serif; }
+
+h2 ul.sectionNav {
+  margin: -5px 0 0;
+  padding: 0;
+  list-style-type: none; }
+  h2 ul.sectionNav li {
+    margin: 0;
+    padding: 0; }
+
+h2 a,
+h2 a:active,
+h2 a:visited {
+  color: #000; }
+
+.entry-title,
+dt.entry-title a {
+  font-variant: small-caps;
+  background: #000;
+  padding: 3px;
+  color: #fff;
+  margin: 0; }
+
+.entry-title a {
+  color: #fff; }
+
+.entry-title a:hover {
+  color: #c0c0c0; }
+
+h3.entry-title {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 10px; }
+
+header {
+  margin: 0 0 5px;
+  font-family: "Franklin Gothic Demi Cond", sans-serif;
+  font-variant: small-caps;
+  text-align: left; }
+
 header h1,
 header h1 a,
 header h1 a:visited,
@@ -125,7 +179,61 @@ footer {
 footer {
   text-align: right; }
 
+#wrap {
+  color: #111;
+  background: #e0e0e0;
+  text-align: left; }
+
+#content {
+  padding: 0; }
+
+#wrap {
+  width: 750px;
+  margin: 0 auto 20px;
+  background-image: url("../img/bg/bg-diamond2back.jpg"); }
+
+#wrap:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+#content {
+  float: right;
+  display: inline;
+  width: 645px;
+  color: #000;
+  background-color: transparent;
+  margin: 0 5px 0 0;
+  border-top: 1px solid #000; }
+
+.entry {
+  margin: 0 0 5px;
+  padding: 5px;
+  border: 1px solid #818181;
+  color: #000;
+  background: #c0c0c0 url("..//img/bg/bg-diamondplatet.jpg");
+  text-align: left; }
+
+#thumbContainer {
+  position: relative;
+  height: 91px; }
+
+.entry-message {
+  font-variant: small-caps;
+  color: #fff;
+  background-image: url("..//img/bg/bg-7_trans.png");
+  padding: 3px; }
+
 #organisms-header .sg-pattern-body {
   width: 750px; }
+
+h2.sg-pattern-head {
+  background: none;
+  border: none;
+  font-variant: normal; }
+  h2.sg-pattern-head a {
+    color: #808080; }
 
 /*# sourceMappingURL=travi.css.map */
