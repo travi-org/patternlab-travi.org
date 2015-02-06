@@ -226,6 +226,80 @@ footer {
   background-image: url("..//img/bg/bg-7_trans.png");
   padding: 3px; }
 
+div.entry > div.entry {
+  padding: 0;
+  font-size: 1em;
+  border: medium none; }
+
+dl dd.entry-date {
+  margin-top: 2px;
+  margin-left: 5px;
+  padding-bottom: 3px;
+  font-style: italic;
+  font-size: .8em; }
+
+dt.entry-title a,
+dt.entry-title {
+  background: transparent; }
+
+div.entry:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+dl.entry-message {
+  font-family: "Trebuchet MS", sans-serif; }
+
+#recentThumbs {
+  margin-bottom: 5px; }
+
+div.updateList {
+  width: 312px;
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1; }
+
+#blogList {
+  margin-right: 2px; }
+
+#updatesList {
+  margin-left: 2px; }
+
+#blogList,
+#announcementsList {
+  font-variant: small-caps;
+  color: #fff;
+  background-image: url("../img/bg/bg-7_trans.png"); }
+  #blogList dl,
+  #announcementsList dl {
+    min-height: 200px;
+    padding: 5px; }
+    #blogList dl dt,
+    #announcementsList dl dt {
+      font-size: 1.5em;
+      border-bottom: 1px solid #fff; }
+    #blogList dl dd,
+    #announcementsList dl dd {
+      padding-bottom: 10px; }
+    #blogList dl.loading,
+    #announcementsList dl.loading {
+      background: url("/resources/thirdparty/travi-styles/img/progress/large-loading.gif") no-repeat center 100px; }
+
+dl.entry-message,
+ul.entry-message {
+  width: auto;
+  list-style: none;
+  padding: 5px;
+  margin: 0 0 5px; }
+
+div.entry > div.entry {
+  display: inline-block;
+  width: 314px;
+  background: transparent; }
+
 #organisms-header .sg-pattern-body {
   width: 750px; }
 
