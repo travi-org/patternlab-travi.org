@@ -1,40 +1,22 @@
-<div class="page" id="page">
-	{{> organisms-header }}
-	<div role="main">
-		{{# emergency }}
-			{{> molecules-alert:error }}
-		{{/ emergency }}
-		{{# hero }}
-			{{> molecules-block-hero }}
-		{{/ hero}}
+<div id="wrap">
+    {{> organisms-header }}
 
-		<div class="g g-3up">
-			{{# touts}}
-				<div class="gi">
-					{{> molecules-block-inset }}
-				</div>
-			{{/ touts}}
-		</div><!--end 3up-->
+    <div id="content">
+        <h2>Recent Activity</h2>
 
-		<hr />
+        <div class="entry">
+            <div id="recentThumbs">
+                <h3 class="entry-title"><a href="gallery">Recent Photos</a></h3>
+                <div id="thumbContainer" class="entry-message">
+                    <ul id="thumbs"></ul>
+                </div>
+            </div>
+                    <!--{include file='components/recentBlog.tpl' entries=$content['recentBlog']}-->
+            <!--{include file='pages/announcements/index.tpl'}-->
+        </div>
 
-		<div class="l-two-col">
-			<div class="l-main">
-				<section class="section latest-posts">
-					<h2 class="section-title">Latest Posts</h2>
-					<ul class="post-list">
-						{{# latest-posts }}
-							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts }}
-					</ul>
-					<a href="#" class="text-btn">View more posts</a>
-				</section>
-			</div><!--end .l-main-->
+        {{> organisms-footer }}
+    </div>
 
-			<div class="l-sidebar">
-				{{> organisms-recent-tweets }}
-			</div><!--end .l-sidebar-->
-		</div><!--end .l-two-col-->
-	</div><!--End role=main-->
-	{{> organisms-footer }}
+    {{> molecules-side-nav }}
 </div>

@@ -6,13 +6,30 @@ $resources-directory: "../";
 @import "nav";
 @import "nav_d";
 
+@import "headings";
+
 @import "header";
 @import "header_d";
 
 @import "footer";
 @import "footer_d";
 
+@import "wrap";
+@import "wrap_d";
+
+@import "homepage";
+
 
 #organisms-header .sg-pattern-body {
     width: $wrap-width;
+}
+
+h2.sg-pattern-head {
+    background: none;
+    border: none;
+    font-variant: normal;
+
+    a {
+        color: #808080;
+    }
 }

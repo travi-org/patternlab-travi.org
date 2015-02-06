@@ -1,0 +1,62 @@
+// SECTION TITLE
+h2,
+.entity-list-header {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #000;
+    color: #000;
+    background: $theme-red;
+    font: 1.75em Impact, sans-serif;
+    font-variant: small-caps;
+    text-align: left;
+}
+
+h2 .sectionNav {
+    font-size: .55em;
+    float: right;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+h2 ul.sectionNav {
+    margin: -5px 0 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+h2 a,
+h2 a:active,
+h2 a:visited {
+    color: #000;
+}
+
+
+
+
+
+.entry-title,
+dt.entry-title a {
+    font-variant: small-caps;
+    background: $theme-black;
+    padding: 3px;
+    color: #fff;
+    margin: 0;
+}
+
+.entry-title a {
+    color: #fff;
+}
+
+.entry-title a:hover {
+    color: $light-grey;
+}
+
+h3.entry-title {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px;
+}

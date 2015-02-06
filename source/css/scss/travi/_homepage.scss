@@ -1,0 +1,11 @@
+#thumbContainer {
+    position: relative;
+    height: 91px;
+}
+
+.entry-message {
+    font-variant: small-caps;
+    color: #fff;
+    background-image: url($resources-directory + '/img/bg/bg-7_trans.png');
+    padding: 3px;
+}
