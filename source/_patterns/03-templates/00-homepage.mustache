@@ -11,8 +11,16 @@
                     <ul id="thumbs"></ul>
                 </div>
             </div>
-                    <!--{include file='components/recentBlog.tpl' entries=$content['recentBlog']}-->
-            <!--{include file='pages/announcements/index.tpl'}-->
+            <div class="updateList" id="blogList">
+                <h3 class="entry-title"><a href="/blog/">Blog Entries</a></h3>
+                <dl></dl>
+            </div>
+            <div class="entry">
+                <div class="updateList" id="announcementsList">
+                    <h3 class="entry-title"><a href="/announcements/">Site Announcements</a></h3>
+                    <dl></dl>
+                </div>
+            </div>
         </div>
 
         {{> organisms-footer }}
