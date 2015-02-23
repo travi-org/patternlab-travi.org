@@ -1,0 +1,23 @@
+{
+  "name": "patternlab-travi.org",
+  "version": "1.0.0",
+  "homepage": "https://github.io/patternlab-travi.org",
+  "authors": [
+    "Matt Travi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "jquery": "1.11.x"
+  },
+  "dependencies": {
+    "travi-framework": "~0.10.0"
+  }
+}
