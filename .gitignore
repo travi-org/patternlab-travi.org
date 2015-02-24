@@ -7,4 +7,5 @@ latest-change.txt
 .idea
 node_modules
 bower_components/
+source/thirdparty
 travi.css*

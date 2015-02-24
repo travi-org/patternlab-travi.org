@@ -1,0 +1,6 @@
+dist:
+  options:
+    targetDir: source/thirdparty
+    layout: byComponent
+    cleanTargetDir: true
+    cleanBowerDir: true
