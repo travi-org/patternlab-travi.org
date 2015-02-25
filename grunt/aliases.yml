@@ -1,3 +1,10 @@
-build: sass
+serve:
+  - build
+  - connect
+  - watch
+
+build:
+  - sass
+  - shell:patternlab
 
 default: build

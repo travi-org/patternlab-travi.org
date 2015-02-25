@@ -1,0 +1,2 @@
+patternlab:
+  command: 'php core/builder.php -g'
