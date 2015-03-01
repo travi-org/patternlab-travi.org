@@ -1,0 +1,6 @@
+options:
+  prefix: icon-
+  includedemo: true
+icons:
+  files:
+    dist/svg/icon-library.svg: 'dist/svg/*.svg'

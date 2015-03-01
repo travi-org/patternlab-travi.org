@@ -1,0 +1,12 @@
+icons:
+  files:
+    -
+      expand: true
+      cwd: dist/svg
+      src: '*.svg'
+      dest: dist/css/icons
+  options:
+    loadersnippet: grunticon.loader.js
+    customselectors:
+      plus:
+        - 'a.add-item span.ui-icon'

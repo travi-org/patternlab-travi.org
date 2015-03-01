@@ -1,0 +1,35 @@
+{
+  "name": "travi-core",
+  "license": "MIT",
+  "ignore": [
+    "test",
+    "*.conf.js",
+    ".bowerrc",
+    "package.json",
+    ".travis.yml",
+    ".gitignore",
+    "grunt",
+    "Gruntfile.js",
+    "README.md",
+    ".editorconfig",
+    ".jscsrc"
+  ],
+  "dependencies": {
+    "amplify": "1.1.0",
+    "jquery": "1.11.x",
+    "jsrender": "latest"
+  },
+  "devDependencies": {
+    "travi-test-utils": "0.5.1"
+  },
+  "homepage": "https://github.com/travi/travi-core",
+  "_release": "6d68fb53a0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6d68fb53a06bb741c55aba05090702a1bff963dd"
+  },
+  "_source": "git://github.com/travi/travi-core.git",
+  "_target": "master",
+  "_originalSource": "travi-core"
+}

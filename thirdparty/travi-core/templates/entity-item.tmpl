@@ -1,0 +1,25 @@
+{{for updates ~actions=list.actions}}
+<li class="entityBlock {{>type}}">
+    <h4>{{>title}}</h4>
+    <p>
+        {{:details}}
+    </p>
+    <ul class="actions">
+        {{for ~actions ~id=id}}
+        <li class="{{attr:~toLower(text)}}-item">
+            {{if text === 'Remove'}}
+            <form action="{{url:link}}{{url:~id}}" class="item-action" method="post">
+                <input type="hidden" name="id" value="{{attr:~id}}" />
+                <input type="hidden" name="_method" value="delete"/>
+                <input type="submit" value="Remove"/>
+            </form>
+            {{else}}
+            <a href="{{url:link}}{{url:~id}}" class="item-action icon-{{attr:~toLower(text)}}">
+                {{>text}}
+            </a>
+            {{/if}}
+        </li>
+        {{/for}}
+    </ul>
+</li>
+{{/for}}

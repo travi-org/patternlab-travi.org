@@ -1,0 +1,9 @@
+allFiles:
+  - 'scss/**/*.scss'
+  - '!scss/**/_baseline.scss'
+  - '!scss/iconize.scss'
+  - '!scss/_mixins.scss'
+options:
+  reporterOutput: 'logs/scss-lint.xml'
+  colorizeOutput: true
+  config: '.scss-lint.yml'

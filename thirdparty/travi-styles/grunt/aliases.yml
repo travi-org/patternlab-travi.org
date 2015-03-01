@@ -1,0 +1,9 @@
+build:
+  - clean
+  - imagemin
+  - sass
+  - grunticon
+  - svgstore
+  - copy
+
+default: scsslint

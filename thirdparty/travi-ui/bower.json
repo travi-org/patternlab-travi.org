@@ -1,0 +1,30 @@
+{
+  "name": "travi-ui",
+  "version": "0.14.2",
+  "license": "MIT",
+  "ignore": [
+    "test",
+    "*.conf.js",
+    ".bowerrc",
+    "package.json",
+    ".travis.yml",
+    ".gitignore",
+    "grunt",
+    "Gruntfile.js",
+    "README.md",
+    ".editorconfig",
+    ".jscsrc"
+  ],
+  "dependencies": {
+    "jquery-ui": "1.10.x",
+    "travi-core": "0.11.2",
+    "wymeditor": "v1.0.0b6",
+    "jquery-migrate": "1.2.1"
+  },
+  "devDependencies": {
+    "travi-test-utils": "0.5.0"
+  },
+  "resolutions": {
+    "jquery": "1.11.x"
+  }
+}

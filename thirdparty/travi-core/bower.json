@@ -1,0 +1,26 @@
+{
+  "name": "travi-core",
+  "version": "0.11.2",
+  "license": "MIT",
+  "ignore": [
+    "test",
+    "*.conf.js",
+    ".bowerrc",
+    "package.json",
+    ".travis.yml",
+    ".gitignore",
+    "grunt",
+    "Gruntfile.js",
+    "README.md",
+    ".editorconfig",
+    ".jscsrc"
+  ],
+  "dependencies": {
+    "amplify": "1.1.0",
+    "jquery": "1.11.x",
+    "jsrender": "latest"
+  },
+  "devDependencies": {
+    "travi-test-utils": "0.5.1"
+  }
+}
