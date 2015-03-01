@@ -20,6 +20,8 @@ $resources-directory: "../";
 @import "homepage";
 @import "homepage_d";
 
+@import "jquery-ui-theme";
+
 
 #organisms-header .sg-pattern-body {
     width: $wrap-width;

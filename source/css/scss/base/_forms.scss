@@ -33,13 +33,6 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 	-webkit-appearance: none;
 }
 
-button, input[type="submit"] {
-	padding: $pad-half;
-	background: $gray-dark;
-	border: 1px solid $gray;
-	cursor: pointer;
-}
-
 input[type="checkbox"],
 input[type="radio"] {
     width: auto;
@@ -65,7 +58,7 @@ input[type="search"]::-webkit-search-decoration {
 	fieldset, .inline-container {
 		position: relative;
 	}
-	
+
 	input[type=submit], button, .btn {
 		font-size: $font-size-small-2;
 		padding: 0.65rem 1.3rem;

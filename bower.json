@@ -15,9 +15,11 @@
     "tests"
   ],
   "resolutions": {
-    "jquery": "1.11.x"
+    "jquery": "1.11.x",
+    "travi-core": "master"
   },
   "dependencies": {
-    "travi-framework": "~0.10.0"
+    "travi-framework": "~0.10.0",
+    "travi-core": "master"
   }
 }
