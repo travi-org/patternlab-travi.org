@@ -15,3 +15,10 @@ bower:
   tasks: bower
   options:
     spawn: true
+
+styles:
+  files:
+    - source/css/scss/**
+  tasks: sass
+  options:
+    spawn: true

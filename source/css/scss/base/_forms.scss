@@ -17,18 +17,6 @@ label {
 	padding-bottom: $space-half;
 }
 
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0 1px 0;
-}
-
-input, textarea {
-	width: 100%;
-	border: 1px solid $gray;
-	padding: $pad-half 0.65rem;
-}
-
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
 	-webkit-appearance: none;
 }
