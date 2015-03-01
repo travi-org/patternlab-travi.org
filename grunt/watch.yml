@@ -8,3 +8,10 @@ html:
   tasks: 'shell:patternlab'
   options:
     spawn: false
+
+bower:
+  files:
+    - bower_components/**
+  tasks: bower
+  options:
+    spawn: true

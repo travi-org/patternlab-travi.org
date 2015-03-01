@@ -4,6 +4,7 @@ serve:
   - watch
 
 build:
+  - bower
   - sass
   - shell:patternlab
 
