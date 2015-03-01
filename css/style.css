@@ -281,12 +281,6 @@ input, textarea {
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
   -webkit-appearance: none; }
 
-button, input[type="submit"] {
-  padding: 0.5em;
-  background: #333;
-  border: 1px solid #808080;
-  cursor: pointer; }
-
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
