@@ -21,6 +21,7 @@ task :travis do
   deploy_url = repo.gsub %r{https://}, "https://#{ENV['GH_TOKEN']}@"
   deploy_branch = repo.match(/github\.io\.git$/) ? 'master' : 'gh-pages'
   rev = %x(git rev-parse HEAD).strip
+  author_date = `git log -n 1 --format='%aD'`.strip
 
   Dir.mktmpdir do |dir|
     dir = File.join dir, 'site'
@@ -35,7 +36,6 @@ task :travis do
         sh "git config user.email '#{ENV['GIT_EMAIL']}'"
       end
 
-      author_date = `git log -n 1 --format='%aD'`.strip
       sh 'git add --all'
       sh "git commit --date='#{author_date}' -m 'Built from #{rev}'."
       verbose false do
