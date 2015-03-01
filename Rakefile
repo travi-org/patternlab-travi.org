@@ -35,8 +35,9 @@ task :travis do
         sh "git config user.email '#{ENV['GIT_EMAIL']}'"
       end
 
+      author_date = `git log -n 1 --format='%aD'`.strip
       sh 'git add --all'
-      sh "git commit -m 'Built from #{rev}'."
+      sh "git commit --date='#{author_date}' -m 'Built from #{rev}'."
       verbose false do
         sh "git push -q #{deploy_url} #{deploy_branch}"
       end
