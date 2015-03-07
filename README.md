@@ -1,5 +1,6 @@
 # Pattern Lab for travi.org
 [![Build Status](http://img.shields.io/travis/travi/patternlab-travi.org.svg?style=flat)](https://travis-ci.org/travi/patternlab-travi.org)
+[![Dependency Status](http://img.shields.io/gemnasium/travi/patternlab-travi.org.svg?style=flat)](https://gemnasium.com/travi/patternlab-travi.org)
 
 ## About Pattern Lab
 - [Pattern Lab Website](http://patternlab.io/)
