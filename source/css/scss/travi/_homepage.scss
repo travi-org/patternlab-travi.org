@@ -6,7 +6,7 @@
 .entry-message {
     font-variant: small-caps;
     color: #fff;
-    background-image: url($resources-directory + '/img/bg/bg-7_trans.png');
+    background-image: $translucent-bg-image;
     padding: 3px;
 }
 
