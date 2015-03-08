@@ -161,7 +161,7 @@ footer {
 .entry-message {
   font-variant: small-caps;
   color: #fff;
-  background-image: url("..//img/bg/bg-7_trans.png");
+  background-image: url(/resources/thirdparty/travi.org-theme/img/bg/bg-7_trans.png);
   padding: 3px; }
 
 div.entry > div.entry {
@@ -210,7 +210,7 @@ div.updateList {
 #announcementsList {
   font-variant: small-caps;
   color: #fff;
-  background-image: url("../img/bg/bg-7_trans.png"); }
+  background-image: url(/resources/thirdparty/travi.org-theme/img/bg/bg-7_trans.png); }
   #blogList dl,
   #announcementsList dl {
     min-height: 200px;

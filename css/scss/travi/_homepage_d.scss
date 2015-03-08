@@ -22,7 +22,7 @@ div.updateList {
 #announcementsList {
     font-variant: small-caps;
     color: #fff;
-    background-image: url($resources-directory + 'img/bg/bg-7_trans.png');
+    background-image: $translucent-bg-image;
 
     dl {
         min-height: 200px;
