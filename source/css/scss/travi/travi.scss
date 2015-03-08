@@ -8,8 +8,8 @@ $resources-directory: "../";
 
 @import "headings";
 
-@import "header";
-@import "header_d";
+@import "../../../resources/thirdparty/travi.org-theme/dist/css/theme.css";
+@import "../../../resources/thirdparty/travi.org-theme/dist/css/theme_d.css";
 
 @import "footer";
 @import "footer_d";

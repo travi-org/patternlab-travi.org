@@ -1,11 +1,10 @@
 .DS_Store
 public/*
-config.ini
 latest-change.txt
 *-ck.js
 *.sass-cache/
 .idea
 node_modules
 bower_components/
-source/thirdparty
+source/resources/thirdparty
 source/css/**/*.css*

@@ -1,6 +1,6 @@
 dist:
   options:
-    targetDir: source/thirdparty
+    targetDir: source/resources/thirdparty
     layout: byComponent
     cleanTargetDir: true
     cleanBowerDir: true

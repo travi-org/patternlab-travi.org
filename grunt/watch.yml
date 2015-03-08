@@ -12,7 +12,9 @@ html:
 bower:
   files:
     - bower_components/**
-  tasks: bower
+  tasks:
+    - bower
+    - shell:patternlab
   options:
     spawn: true
 
