@@ -1,5 +1,7 @@
 $resources-directory: "../";
 
+@import "../../../resources/thirdparty/travi.org-theme/scss/colors";
+
 @import "variables";
 @import "variables_d";
 
@@ -13,9 +15,6 @@ $resources-directory: "../";
 
 @import "footer";
 @import "footer_d";
-
-@import "wrap";
-@import "wrap_d";
 
 @import "homepage";
 @import "homepage_d";
