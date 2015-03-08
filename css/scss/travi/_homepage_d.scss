@@ -1,0 +1,59 @@
+#recentThumbs {
+    margin-bottom: 5px;
+}
+
+div.updateList {
+    width: 312px;
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    zoom: 1;
+}
+
+#blogList {
+    margin-right: 2px;
+}
+
+#updatesList {
+    margin-left: 2px;
+}
+
+#blogList,
+#announcementsList {
+    font-variant: small-caps;
+    color: #fff;
+    background-image: url($resources-directory + 'img/bg/bg-7_trans.png');
+
+    dl {
+        min-height: 200px;
+        padding: 5px;
+
+        dt {
+            font-size: 1.5em;
+            border-bottom: 1px solid #fff;
+        }
+
+        dd {
+            padding-bottom: 10px;
+        }
+
+        &.loading {
+            background: url('/resources/thirdparty/travi-styles/img/progress/large-loading.gif') no-repeat center 100px;
+        }
+    }
+}
+
+dl.entry-message,
+ul.entry-message {
+    width: auto;
+    list-style: none;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+
+//TODO: clean this up
+div.entry > div.entry {
+    display: inline-block;
+    width: 314px;
+    background: transparent;
+}

@@ -1,0 +1,184 @@
+@import '../mixins';
+
+$red: #f00;
+$label-gutter: 90px;
+$validation-error-radius: 4px;
+
+.form {
+  font-variant: small-caps;
+  color: #fff;
+  padding: 3px;
+}
+
+fieldset {
+  margin: 0 0 5px;
+  opacity: 1;
+}
+
+legend {
+  font-size: 1.5em;
+}
+
+ul.fieldList {
+  list-style-type: none;
+  margin: 0;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  > li  > label {
+    &:after {
+      content: ':';
+    }
+
+    &.ui-state-error:after {
+      content: '';
+    }
+  }
+
+  label {
+    width: $label-gutter;
+    display: inline-block;
+    vertical-align: top;
+
+    &.ui-state-error {
+      @include border-radius($validation-error-radius);
+      width: auto;
+      margin-left: 93px;
+      padding: 3px 3px 3px 20px;
+      margin-top: 3px;
+      color: #fff;
+      display: block;
+      border: 0;
+      background: #c80000 url('/resources/thirdparty/travi-styles/dist/img/icons/ui-icon-ffffff-alert.png') no-repeat 3px 2px;
+    }
+  }
+
+
+  button {
+    margin-left: 93px;
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0;
+    margin: 3px 0 10px;
+
+    .choices {
+      margin-left: $label-gutter;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    label {
+      padding: 0;
+      width: auto;
+
+      &.ui-state-error {
+        display: inline;
+        float: right;
+        padding-right: 200px;
+        margin-left: 0;
+        vertical-align: top;
+      }
+    }
+
+    legend {
+      margin: 0;
+      padding: 0 0 5px;
+      font-weight: normal;
+      font-size: 1em;
+
+      &:after {
+        content: ':';
+      }
+    }
+  }
+
+  .notearea {
+    display: inline;
+    padding-left: 0;
+  }
+
+  .submitButton {
+    margin-left: 94px;
+    clear: both;
+    display: block;
+  }
+}
+
+form ol.actions {
+  margin: 20px 0;
+}
+
+input.ui-state-error,
+textarea.ui-state-error,
+select.ui-state-error {
+  @include border-radius($validation-error-radius);
+  background: #fff none;
+  border: 2px solid #f00;
+}
+
+.textInput {
+  color: $red;
+  background: #ccc;
+  border: $red solid 1px;
+  padding-left: 2px;
+}
+
+.fileInput {
+  color: $red;
+  background: #ccc;
+  border: $red solid 1px;
+  padding-left: 2px;
+}
+
+.city {
+  width: 365px;
+}
+
+.state {
+  width: 20px;
+}
+
+.zip {
+  width: 40px;
+}
+
+.outerButton {
+  margin-left: 112px;
+}
+
+#date_trigger {
+  vertical-align: top;
+}
+
+#date_trigger:hover {
+  border: 2px #fff solid;
+}
+
+.format_trigger {
+  border: 1px solid #eaeaea;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+}
+
+.format_trigger:hover {
+  border: 1px solid #808080;
+}
+
+input.datepicker {
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+input.open-id {
+  padding: 3px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-image: url('../../img/icons/openid-icon.png');
+}
