@@ -1,5 +1,8 @@
 $resources-directory: "../";
 
+@import "../../../resources/thirdparty/travi-styles/dist/css/core/travi-basic.css";
+@import "../../../resources/thirdparty/travi-styles/dist/css/core/travi-basic_d.css";
+
 @import "../../../resources/thirdparty/travi.org-theme/scss/colors";
 @import "../../../resources/thirdparty/travi.org-theme/scss/variables";
 
@@ -13,9 +16,6 @@ $resources-directory: "../";
 
 @import "../../../resources/thirdparty/travi.org-theme/dist/css/theme.css";
 @import "../../../resources/thirdparty/travi.org-theme/dist/css/theme_d.css";
-
-@import "footer";
-@import "footer_d";
 
 @import "homepage";
 @import "homepage_d";
