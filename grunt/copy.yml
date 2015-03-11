@@ -1,0 +1,6 @@
+patternlab:
+  files:
+    - expand: true
+      cwd: core/styleguide
+      src: "**"
+      dest: public/styleguide/
