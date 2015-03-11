@@ -1,0 +1,6 @@
+linters:
+  IdSelector:
+    enabled: false
+
+  SelectorFormat:
+    enabled: false

@@ -1,11 +1,11 @@
 {
   "name": "travi.org-theme",
   "homepage": "https://github.com/travi/travi.org-theme",
-  "_release": "467c74676c",
+  "_release": "69a30f07f8",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "467c74676c8f0cad5031ad0d8dfb43a73423d69b"
+    "commit": "69a30f07f8400ad3a4478ec7de1f8f8c855a6727"
   },
   "_source": "git://github.com/travi/travi.org-theme.git",
   "_target": "*",

@@ -1,4 +1,8 @@
-default: build
+default: verify
+
+verify: lint
+
+lint: scsslint
 
 build:
   - clean

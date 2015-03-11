@@ -1,33 +1,33 @@
 #wrap {
-    width: 750px;
-    margin: 0 auto 20px;
-    background-image: url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamond2back.jpg');
+  background-image: url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamond2back.jpg');
+  margin: 0 auto 20px;
+  width: 750px;
 }
 
 #wrap:after {
-    content: '.';
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 // CONTENT WRAPPER
 #content {
-    float: right;
-    display: inline;
-    width: 645px;
-    color: #000;
-    background-color: transparent;
-    margin: 0 5px 0 0;
-    border-top: 1px solid #000;
+  background-color: transparent;
+  border-top: 1px solid $black;
+  color: $black;
+  display: inline;
+  float: right;
+  margin: 0 5px 0 0;
+  width: 645px;
 }
 
 .entry {
-    margin: 0 0 5px;
-    padding: 5px;
-    border: 1px solid #818181;
-    color: #000;
-    background: $light-grey url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamondplatet.jpg');
-    text-align: left;
+  background: $light-grey url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamondplatet.jpg');
+  border: 1px solid $grey;
+  color: $black;
+  margin: 0 0 5px;
+  padding: 5px;
+  text-align: left;
 }

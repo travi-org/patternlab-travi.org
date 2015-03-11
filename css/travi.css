@@ -1,3 +1,5 @@
+@import url(../../../resources/thirdparty/travi-styles/dist/css/core/travi-basic.css);
+@import url(../../../resources/thirdparty/travi-styles/dist/css/core/travi-basic_d.css);
 @import url(../../../resources/thirdparty/travi.org-theme/dist/css/theme.css);
 @import url(../../../resources/thirdparty/travi.org-theme/dist/css/theme_d.css);
 nav {
@@ -143,16 +145,6 @@ h3.entry-title {
   font-size: 1.5em;
   margin: 0;
   padding: 10px; }
-
-footer {
-  font-size: .75em;
-  font-variant: small-caps;
-  border-top: 1px solid #000;
-  margin-top: 5px;
-  background-color: transparent; }
-
-footer {
-  text-align: right; }
 
 #thumbContainer {
   position: relative;
