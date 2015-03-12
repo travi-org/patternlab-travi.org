@@ -1,0 +1,4 @@
+patternlab:
+  options:
+    title: Rebuild Complete
+    message: Patternlab has been rebuilt
