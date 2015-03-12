@@ -1,7 +1,5 @@
 @import url(../../../resources/thirdparty/travi-styles/dist/css/core/travi-basic.css);
 @import url(../../../resources/thirdparty/travi-styles/dist/css/core/travi-basic_d.css);
-@import url(../../../resources/thirdparty/travi.org-theme/dist/css/theme.css);
-@import url(../../../resources/thirdparty/travi.org-theme/dist/css/theme_d.css);
 nav {
   background-color: #c80000; }
   nav.sideNav {
@@ -145,6 +143,84 @@ h3.entry-title {
   font-size: 1.5em;
   margin: 0;
   padding: 10px; }
+
+header {
+  font-family: "Franklin Gothic Demi Cond", sans-serif;
+  font-variant: small-caps;
+  margin: 0 0 5px;
+  text-align: left; }
+
+header h1,
+header h1 a,
+header h1 a:visited,
+header h1 a:active {
+  color: #fff;
+  font-family: "Permanent Marker", "Franklin Gothic Demi Cond", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-shadow: 5px 5px 5px #111; }
+
+#wrap {
+  background: #e0e0e0;
+  color: #111;
+  text-align: left; }
+
+#content {
+  padding: 0; }
+
+footer {
+  background-color: transparent;
+  border-top: 1px solid #111;
+  font-size: .75em;
+  font-variant: small-caps;
+  margin-top: 5px; }
+
+header {
+  background: transparent url("/resources/thirdparty/travi.org-theme/img/titleBanners/truckApex.jpg") no-repeat;
+  border-top: 1px solid #fff;
+  height: 200px;
+  padding: 0; }
+  header h1 {
+    font-size: 80px;
+    margin: 30px 0 0;
+    padding-left: 100px; }
+
+#wrap {
+  background-image: url("/resources/thirdparty/travi.org-theme/img/bg/bg-diamond2back.jpg");
+  margin: 0 auto 20px;
+  width: 750px; }
+
+#wrap:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+#content {
+  background-color: transparent;
+  border-top: 1px solid #111;
+  color: #111;
+  display: inline;
+  float: right;
+  margin: 0 5px 0 0;
+  width: 645px; }
+
+.entry {
+  background: #c0c0c0 url("/resources/thirdparty/travi.org-theme/img/bg/bg-diamondplatet.jpg");
+  border: 1px solid #818181;
+  color: #111;
+  margin: 0 0 5px;
+  padding: 5px;
+  text-align: left; }
+
+footer {
+  text-align: right; }
+
+#enhancementVersion {
+  float: left;
+  margin: 0; }
 
 #thumbContainer {
   position: relative;

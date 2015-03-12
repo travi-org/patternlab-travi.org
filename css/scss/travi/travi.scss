@@ -14,8 +14,8 @@ $resources-directory: "../";
 
 @import "headings";
 
-@import "../../../resources/thirdparty/travi.org-theme/dist/css/theme.css";
-@import "../../../resources/thirdparty/travi.org-theme/dist/css/theme_d.css";
+@import "../../../resources/thirdparty/travi.org-theme/scss/theme";
+@import "../../../resources/thirdparty/travi.org-theme/scss/theme_d";
 
 @import "homepage";
 @import "homepage_d";
