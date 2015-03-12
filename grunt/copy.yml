@@ -4,3 +4,7 @@ patternlab:
       cwd: core/styleguide
       src: "**"
       dest: public/styleguide/
+
+favicon:
+  src: bower_components/travi.org-theme/img/favicon.ico
+  dest: source/favicon.ico

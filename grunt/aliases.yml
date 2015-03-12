@@ -5,6 +5,7 @@ serve:
 
 build:
   - copy:patternlab
+  - copy:favicon
   - bower
   - sass
   - shell:patternlab

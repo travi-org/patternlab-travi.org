@@ -1,10 +1,14 @@
 .DS_Store
-public/*
 latest-change.txt
 *-ck.js
 *.sass-cache/
 .idea
+
 node_modules
 bower_components/
+
+source/favicon.ico
 source/resources/thirdparty
 source/css/**/*.css*
+
+public/*
