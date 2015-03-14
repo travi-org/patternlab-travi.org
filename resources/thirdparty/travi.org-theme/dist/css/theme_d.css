@@ -1,3 +1,10 @@
+#wrap {
+  width: 960px; }
+
+#smallVersion {
+  background-size: 25px;
+  background-position: inherit; }
+
 header {
   background: transparent url('/resources/thirdparty/travi.org-theme/img/titleBanners/truckApex.jpg') no-repeat;
   border-top: 1px solid #fff;

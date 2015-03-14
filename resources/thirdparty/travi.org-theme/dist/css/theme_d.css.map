@@ -3,12 +3,14 @@
 	"file": "theme_d.css",
 	"sources": [
 		"../../theme_d.scss",
+		"../../../bower_components/travi-styles/scss/core/travi-basic_d.scss",
 		"../../_colors.scss",
 		"../../header/_large.scss",
 		"../../wrap/_large.scss",
-		"../../footer/_large.scss"
+		"../../footer/_large.scss",
+		"../../../bower_components/travi-styles/scss/core/_baseline_d.scss"
 	],
 	"sourcesContent": [],
-	"mappings": "AEAA;EACE,AAAY;EACZ,AAAY;EACZ,AAAQ;EACR,AAAS;EAEX,AAAO;IACH,AAAW;IACX,AAAQ;IACR,AAAc;;ACTlB;EACE,AAAkB;EAClB,AAAQ;EACR,AAAO;;AAGT,AAAK;EACH,AAAO;EACP,AAAS;EACT,AAAS;EACT,AAAQ;EACR,AAAY;;AAId;EACE,AAAkB;EAClB,AAAY;EACZ,AFdM;EEeN,AAAS;EACT,AAAO;EACP,AAAQ;EACR,AAAO;;AAGT;EACE,AAAY;EACZ,AAAQ;EACR,AFxBM;EEyBN,AAAQ;EACR,AAAS;EACT,AAAY;;AC/Bd;EACE,AAAY;;AAGd;EACE,AAAO;EACP,AAAQ",
+	"mappings": "AMAA;EACE,AAAO;;AAGT;EACE,AAAiB;EACjB,AAAqB;;AHNvB;EACE,AAAY;EACZ,AAAY;EACZ,AAAQ;EACR,AAAS;EAEX,AAAO;IACH,AAAW;IACX,AAAQ;IACR,AAAc;;ACTlB;EACE,AAAkB;EAClB,AAAQ;EACR,AAAO;;AAGT,AAAK;EACH,AAAO;EACP,AAAS;EACT,AAAS;EACT,AAAQ;EACR,AAAY;;AAId;EACE,AAAkB;EAClB,AAAY;EACZ,AFdM;EEeN,AAAS;EACT,AAAO;EACP,AAAQ;EACR,AAAO;;AAGT;EACE,AAAY;EACZ,AAAQ;EACR,AFxBM;EEyBN,AAAQ;EACR,AAAS;EACT,AAAY;;AC/Bd;EACE,AAAY;;AAGd;EACE,AAAO;EACP,AAAQ",
 	"names": []
 }
