@@ -19,7 +19,6 @@
     "travi-core": "master"
   },
   "dependencies": {
-    "travi-framework": "~0.10.0",
     "travi-core": "master",
     "travi.org-theme": "*"
   }
