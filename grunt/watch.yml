@@ -4,18 +4,16 @@ html:
     - '<%= paths.dest.patterns %>/**/*.json'
     - '<%= paths.dest.css %>/**/*.css'
     - '<%= paths.dest.js %>/**/*.js'
-    - 'source/resources/thirdparty/**/*'
+    - 'source/resources/thirdparty/**/*.{scss,css,js}'
     - 'source/api/*.json'
   tasks:
     - shell:patternlab
     - notify:patternlab
 
 bower:
-  files: 'bower_components/**/*'
+  files: 'bower_components/**/*.{scss,css,js}'
   tasks:
     - bower
-    - shell:patternlab
-    - notify:patternlab
 
 styles:
   files:

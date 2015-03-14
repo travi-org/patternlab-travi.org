@@ -2,4 +2,3 @@ dist:
   options:
     targetDir: source/resources/thirdparty
     layout: byComponent
-    cleanTargetDir: true
