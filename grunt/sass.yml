@@ -1,3 +1,7 @@
+options:
+  includePaths:
+    - bower_components
+
 travi:
   files:
     - expand: true
