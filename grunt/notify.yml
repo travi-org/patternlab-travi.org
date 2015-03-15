@@ -2,3 +2,8 @@ patternlab:
   options:
     title: Rebuild Complete
     message: Patternlab has been rebuilt
+
+bower:
+  options:
+    title: Bower Updated
+    message: Dependencies moved to thirdparty directory

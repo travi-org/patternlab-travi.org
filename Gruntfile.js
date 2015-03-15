@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     var paths = {
         src: {
             bower: 'bower_components',
-            css: 'source/css',
+            scss: 'source/scss',
             fonts: 'source/fonts',
             js: 'source/js/source'
         },
@@ -13,6 +13,7 @@ module.exports = function (grunt) {
             css: 'source/css',
             fonts: 'source/fonts',
             js: 'source/js',
+            bower: 'source/resources/thirdparty',
             html: 'public/patterns',
             images: 'source/images',
             patterns: 'source/_patterns'

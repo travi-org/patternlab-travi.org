@@ -21,5 +21,13 @@
   "dependencies": {
     "travi-core": "master",
     "travi.org-theme": "*"
+  },
+  "exportsOverride": {
+    "amplify": {
+      ".": "core/amplify.core.js"
+    },
+    "wymeditor": {
+      ".": "dist/wymeditor"
+    }
   }
 }

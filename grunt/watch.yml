@@ -1,21 +1,22 @@
 html:
   files:
-    - '<%= paths.dest.patterns %>/**/*.mustache'
-    - '<%= paths.dest.patterns %>/**/*.json'
+    - '<%= paths.dest.patterns %>/**/*.{mustache,json}'
     - '<%= paths.dest.css %>/**/*.css'
     - '<%= paths.dest.js %>/**/*.js'
-    - 'source/resources/thirdparty/**/*.{scss,css,js}'
+    - '<%= paths.dest.bower %>/**/*.{scss,css,js}'
     - 'source/api/*.json'
   tasks:
     - shell:patternlab
     - notify:patternlab
 
 bower:
-  files: 'bower_components/**/*.{scss,css,js}'
+  files: '<%= paths.src.bower %>/**/*.{scss,css,js}'
   tasks:
     - bower
+    - notify:bower
 
 styles:
   files:
-    - source/css/scss/**
+    - '<%= paths.src.scss %>/**/*.scss'
+    - '<%= paths.dest.bower %>/**/*.scss'
   tasks: sass
