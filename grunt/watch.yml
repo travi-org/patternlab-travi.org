@@ -3,7 +3,7 @@ html:
     - '<%= paths.dest.patterns %>/**/*.{mustache,json}'
     - '<%= paths.dest.css %>/**/*.css'
     - '<%= paths.dest.js %>/**/*.js'
-    - '<%= paths.dest.bower %>/**/*.{scss,css,js}'
+    - '<%= paths.dest.bower %>/**/*.{css,js,jpg,png}'
     - 'source/api/*.json'
   tasks:
     - shell:patternlab
