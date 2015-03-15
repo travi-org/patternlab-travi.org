@@ -13,6 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "travi-framework": "~0.10.0"
+    "travi-framework": "0.10.0"
   }
 }

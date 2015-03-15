@@ -1,4 +1,0 @@
-Resizable
-=========
-
-Add description.

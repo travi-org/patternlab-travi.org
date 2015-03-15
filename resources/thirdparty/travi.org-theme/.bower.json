@@ -13,13 +13,13 @@
     "tests"
   ],
   "dependencies": {
-    "travi-framework": "~0.10.0"
+    "travi-framework": "0.10.0"
   },
-  "_release": "2b7c30e6ca",
+  "_release": "343aba5e05",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "2b7c30e6ca5c1fb6641da152920d4223e1d8a386"
+    "commit": "343aba5e05144d6fe70c8c448822a88569887c55"
   },
   "_source": "git://github.com/travi/travi.org-theme.git",
   "_target": "*",

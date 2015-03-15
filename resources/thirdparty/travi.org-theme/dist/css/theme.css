@@ -330,19 +330,37 @@ a.add-item, .item-action {
 .confirmation .ui-dialog-titlebar-close {
   display: none; }
 
-header {
-  font-family: "Franklin Gothic Demi Cond", sans-serif;
-  font-variant: small-caps;
-  margin: 0 0 5px;
-  text-align: left; }
-
-header h1, header h1 a, header h1 a:visited, header h1 a:active {
+h1, h1 a, h1 a:visited, h1 a:active {
   color: #fff;
   font-family: "Permanent Marker", "Franklin Gothic Demi Cond", sans-serif;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   text-shadow: 5px 5px 5px #111; }
+
+h2, .entity-list-header {
+  background: #c80000;
+  border: 1px solid #111;
+  color: #111;
+  font: 1.75em Impact, sans-serif;
+  font-variant: small-caps;
+  margin: 5px 0;
+  padding: 5px;
+  text-align: left; }
+
+h2 .sectionNav {
+  float: right;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .55em; }
+
+h2 a, h2 a:active, h2 a:visited {
+  color: #111; }
+
+header {
+  font-family: "Franklin Gothic Demi Cond", sans-serif;
+  font-variant: small-caps;
+  margin: 0 0 5px;
+  text-align: left; }
 
 #wrap {
   background: #e0e0e0;

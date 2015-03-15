@@ -15,6 +15,6 @@
     "commit": "54f406c8fd612eeb209098fcd9725e468df4a8d4"
   },
   "_source": "git://github.com/travi/travi-framework-js.git",
-  "_target": "~0.10.0",
+  "_target": "0.10.0",
   "_originalSource": "travi-framework"
 }
