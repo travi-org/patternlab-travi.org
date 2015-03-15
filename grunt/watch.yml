@@ -10,7 +10,7 @@ html:
     - notify:patternlab
 
 bower:
-  files: '<%= paths.src.bower %>/**/*.{scss,css,js}'
+  files: '<%= paths.src.bower %>/travi*/**/*.{scss,css,js}'
   tasks:
     - bower
     - notify:bower

@@ -26,6 +26,15 @@
     "amplify": {
       ".": "core/amplify.core.js"
     },
+    "jquery-requestAnimationFrame": {
+      ".": "src/jquery.requestAnimationFrame.js"
+    },
+    "jquery.validation": {
+      ".": "jquery.validate.js"
+    },
+    "jsrender": {
+      ".": "*.js"
+    },
     "wymeditor": {
       ".": "dist/wymeditor"
     }
