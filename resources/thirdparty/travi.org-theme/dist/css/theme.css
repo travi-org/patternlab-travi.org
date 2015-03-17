@@ -356,11 +356,32 @@ h2 .sectionNav {
 h2 a, h2 a:active, h2 a:visited {
   color: #111; }
 
+::selection {
+  background: #c80000;
+  color: #fff;
+  text-shadow: none; }
+
+a, a:visited, a:active {
+  color: #c80000;
+  text-decoration: none; }
+
+a:hover {
+  color: #c0c0c0;
+  text-decoration: underline; }
+
 header {
   font-family: "Franklin Gothic Demi Cond", sans-serif;
   font-variant: small-caps;
   margin: 0 0 5px;
   text-align: left; }
+
+body {
+  background: #111 url('/resources/thirdparty/travi.obg-tireTread.jpgrg-theme/img/bg/bg-tireTread.jpg') fixed;
+  color: #fff;
+  font: 1em georgia, times, serif;
+  font-variant: small-caps; }
+  body.admin #mainNav {
+    display: none; }
 
 #wrap {
   background: #e0e0e0;

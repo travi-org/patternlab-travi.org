@@ -1,0 +1,11 @@
+a,
+a:visited,
+a:active {
+  color: $theme-red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $light-grey;
+  text-decoration: underline;
+}
