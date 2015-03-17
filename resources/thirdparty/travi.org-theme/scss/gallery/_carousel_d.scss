@@ -1,0 +1,63 @@
+#thumbs img {
+  padding: 3px;
+  vertical-align: middle;
+}
+
+.js {
+  #thumbs {
+    margin: 5px 30px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #thumbContainer {
+    height: 91px;
+    position: relative;
+
+    button {
+      display: inline;
+      opacity: .7;
+      top: 13px;
+
+      &.slide-right {
+        right: 10px;
+      }
+
+      &.slide-left {
+        left: 10px;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.at-limit,
+      &.at-limit:hover {
+        cursor: not-allowed;
+        opacity: .3;
+      }
+    }
+  }
+
+  button {
+    &.slide-left,
+    &.slide-right {
+      background: no-repeat scroll 0 0 transparent;
+      border: 0;
+      height: 73px;
+      position: absolute;
+      width: 19px;
+    }
+
+    &.slide-right {
+      background-image: url('/resources/thirdparty/travi.org-theme/img/carousel/arrow_right_dark.gif');
+    }
+
+    &.slide-left {
+      background-image: url('/resources/thirdparty/travi.org-theme/img/carousel/arrow_left_dark.gif');
+    }
+
+  }
+
+}
+

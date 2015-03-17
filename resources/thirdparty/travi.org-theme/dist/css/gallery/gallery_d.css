@@ -1,0 +1,48 @@
+#thumbs img {
+  padding: 3px;
+  vertical-align: middle; }
+
+.js #thumbs {
+  margin: 5px 30px;
+  overflow: hidden;
+  white-space: nowrap; }
+.js #thumbContainer {
+  height: 91px;
+  position: relative; }
+  .js #thumbContainer button {
+    display: inline;
+    opacity: .7;
+    top: 13px; }
+    .js #thumbContainer button.slide-right {
+      right: 10px; }
+    .js #thumbContainer button.slide-left {
+      left: 10px; }
+    .js #thumbContainer button:hover {
+      opacity: 1; }
+    .js #thumbContainer button.at-limit, .js #thumbContainer button.at-limit:hover {
+      cursor: not-allowed;
+      opacity: .3; }
+.js button.slide-left, .js button.slide-right {
+  background: no-repeat scroll 0 0 transparent;
+  border: 0;
+  height: 73px;
+  position: absolute;
+  width: 19px; }
+.js button.slide-right {
+  background-image: url('/resources/thirdparty/travi.org-theme/img/carousel/arrow_right_dark.gif'); }
+.js button.slide-left {
+  background-image: url('/resources/thirdparty/travi.org-theme/img/carousel/arrow_left_dark.gif'); }
+
+#thumbs {
+  margin: 5px; }
+  #thumbs li {
+    display: inline-block;
+    position: relative; }
+  #thumbs img {
+    height: 75px;
+    width: 75px; }
+
+.js .pagination.thumbnail {
+  display: none; }
+
+/*# sourceMappingURL=gallery_d.css.map */
