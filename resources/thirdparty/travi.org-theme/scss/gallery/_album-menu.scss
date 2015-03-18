@@ -1,0 +1,29 @@
+#albumMenu {
+  background: $and-another-grey;
+  color: $another-grey;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0 0 5px;
+  padding: 12px;
+
+  a {
+    color: $another-grey;
+    text-decoration: none;
+
+    &:active {
+      color: $yet-another-grey;
+    }
+
+    &:hover {
+      color: $dark-grey;
+    }
+  }
+}
+
+.pagination {
+  float: none;
+  text-align: center;
+
+  a {
+    color: $black;
+  }
+}

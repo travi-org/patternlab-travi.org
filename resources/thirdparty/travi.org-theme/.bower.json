@@ -15,11 +15,11 @@
   "dependencies": {
     "travi-framework": "0.10.0"
   },
-  "_release": "0cfd202454",
+  "_release": "9aa74f4435",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "0cfd20245491142b10144de09d71d7c36baf631b"
+    "commit": "9aa74f4435b74ed6d446bca97f3f4a2a327bcfeb"
   },
   "_source": "git://github.com/travi/travi.org-theme.git",
   "_target": "*",

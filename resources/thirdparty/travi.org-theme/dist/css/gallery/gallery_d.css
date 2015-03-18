@@ -33,16 +33,56 @@
 .js button.slide-left {
   background-image: url('/resources/thirdparty/travi.org-theme/img/carousel/arrow_left_dark.gif'); }
 
-#thumbs {
-  margin: 5px; }
-  #thumbs li {
+#albumList {
+  margin: 0; }
+  #albumList li {
     display: inline-block;
-    position: relative; }
-  #thumbs img {
-    height: 75px;
-    width: 75px; }
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    width: 160px; }
+    #albumList li img {
+      display: block; }
 
-.js .pagination.thumbnail {
+.js #albumList {
   display: none; }
+.js #albumMenu {
+  font-size: 10px;
+  height: 14px;
+  line-height: 12px;
+  padding: 4px 0 6px 40px; }
+  .js #albumMenu a {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold; }
+  .js #albumMenu > ul > li {
+    border-left: 1px solid #666;
+    height: 14px;
+    margin: 0;
+    padding: 0 5px;
+    width: 105px; }
+.js .menuBar > li > ul {
+  display: none; }
+.js .carousel {
+  height: 118px; }
+
+.menuBar > li {
+  display: inline-block;
+  vertical-align: top; }
+  .menuBar > li > ul {
+    margin-left: 15px; }
+
+#albumMenu .ui-icon {
+  background-image: url('/resources/css/travi-ui-theme/images/ui-icons_999999_256x240.png');
+  display: inline-block;
+  vertical-align: middle; }
+#albumMenu .ui-menu {
+  z-index: 10; }
+  #albumMenu .ui-menu a {
+    color: #999; }
+#albumMenu li em {
+  font-size: smaller;
+  font-style: normal;
+  font-weight: bold; }
 
 /*# sourceMappingURL=gallery_d.css.map */

@@ -1,0 +1,82 @@
+
+#albumList {
+  margin: 0;
+
+  li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    width: 160px;
+
+    img {
+      display: block;
+    }
+  }
+}
+
+.js {
+  #albumList {
+    display: none;
+  }
+
+  #albumMenu {
+    font-size: 10px;
+    height: 14px;
+    line-height: 12px;
+    padding: 4px 0 6px 40px;
+
+    a {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    > ul > li {
+      border-left: 1px solid $another-grey;
+      height: 14px;
+      margin: 0;
+      padding: 0 5px;
+      width: 105px;
+    }
+  }
+
+  .menuBar > li > ul {
+    display: none;
+  }
+
+  .carousel {
+    height: 118px;
+  }
+}
+
+.menuBar > li {
+  display: inline-block;
+  vertical-align: top;
+
+  > ul {
+    margin-left: 15px;
+  }
+}
+
+#albumMenu {
+  .ui-icon {
+    background-image: url('/resources/css/travi-ui-theme/images/ui-icons_999999_256x240.png');
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .ui-menu {
+    z-index: 10;
+
+    a {
+      color: $yet-another-grey;
+    }
+  }
+
+  li em {
+    font-size: smaller;
+    font-style: normal;
+    font-weight: bold;
+  }
+}

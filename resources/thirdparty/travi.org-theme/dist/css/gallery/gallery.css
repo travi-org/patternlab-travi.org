@@ -1,0 +1,33 @@
+#albumMenu {
+  background: #bbb;
+  color: #666;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0 0 5px;
+  padding: 12px; }
+  #albumMenu a {
+    color: #666;
+    text-decoration: none; }
+    #albumMenu a:active {
+      color: #999; }
+    #albumMenu a:hover {
+      color: #333; }
+
+.pagination {
+  float: none;
+  text-align: center; }
+  .pagination a {
+    color: #111; }
+
+#thumbs {
+  margin: 5px; }
+  #thumbs li {
+    display: inline-block;
+    position: relative; }
+  #thumbs img {
+    height: 75px;
+    width: 75px; }
+
+.js .pagination.thumbnail {
+  display: none; }
+
+/*# sourceMappingURL=gallery.css.map */
