@@ -1,0 +1,3 @@
+bower: source/resources/thirdparty
+
+css: source/css/**/*.css*

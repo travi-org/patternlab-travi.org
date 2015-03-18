@@ -4,6 +4,7 @@ serve:
   - watch
 
 build:
+  - clean
   - copy:patternlab
   - bower
   - copy:favicon
