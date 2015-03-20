@@ -85,4 +85,16 @@
   font-style: normal;
   font-weight: bold; }
 
+#imageContainer {
+  background-image: url(/resources/thirdparty/travi.org-theme/img/bg/bg-7_trans.png);
+  color: #666;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 12px;
+  margin-top: 5px;
+  min-height: 300px;
+  padding: 10px;
+  position: relative; }
+
 /*# sourceMappingURL=gallery_d.css.map */

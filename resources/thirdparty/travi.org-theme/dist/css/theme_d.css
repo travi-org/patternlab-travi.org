@@ -44,6 +44,13 @@ header {
   padding: 5px;
   text-align: left; }
 
+.section {
+  background: #c0c0c0 url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamondplatet.jpg');
+  border: 1px solid #818181;
+  color: #fff;
+  padding: 5px;
+  text-align: center; }
+
 footer {
   text-align: right; }
 
