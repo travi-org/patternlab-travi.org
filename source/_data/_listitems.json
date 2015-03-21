@@ -21,6 +21,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/tech",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -94,6 +98,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/people",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -167,6 +175,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/nature",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -240,6 +252,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/people/greyscale",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -313,6 +329,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/arch",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -386,6 +406,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/people/grayscale",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -459,6 +483,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/any",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -532,6 +560,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/any/grayscale",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -605,6 +637,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/any/sepia",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -678,6 +714,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/arch/grayscale",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -751,6 +791,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/arch/sepia",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -824,6 +868,10 @@
 			"landscape-16x9": {
 				"src": "http://placeimg.com/640/360/people/sepia",
 				"alt": "16x9 Image"
+			},
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
 			}
 		},
 		"headline": {
@@ -874,5 +922,29 @@
 			"short": "34"
 		},
 		"seconds": "56"
+	},
+	"13": {
+		"img": {
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
+			}
+		}
+	},
+	"14": {
+		"img": {
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
+			}
+		}
+	},
+	"15": {
+		"img": {
+			"thumbnail": {
+				"src": "../../images/fpo_thumbnail.png",
+				"alt": "Thumbnail"
+			}
+		}
 	}
 }

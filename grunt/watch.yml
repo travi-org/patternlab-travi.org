@@ -6,7 +6,7 @@ html:
     - '<%= paths.dest.bower %>/travi*/**/*.{css,js,jpg,png}'
     - '!<%= paths.dest.bower %>/travi*/bower_components/**/*.{css,js,jpg,png}'
     - '!<%= paths.dest.bower %>/travi*/node_modules/**/*.{css,js,jpg,png}'
-    - 'source/api/*.json'
+    - 'source/_data/*.json'
   tasks:
     - shell:patternlab
     - notify:patternlab
