@@ -13,6 +13,13 @@
     "tests"
   ],
   "dependencies": {
-    "travi-framework": "0.10.0"
+    "travi-framework": "0.10.0",
+    "travi-test-utils": "~0.5.1"
+  },
+  "devDependencies": {
+    "travi-test-utils": "~0.5.1"
+  },
+  "resolutions": {
+    "jquery": "1.11.x"
   }
 }

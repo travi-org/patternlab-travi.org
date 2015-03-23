@@ -1,0 +1,28 @@
+dist:
+  src: 'js/**/*.js'
+  directives:
+    browser: true
+    predef:
+      - $
+      - travi
+  options:
+    errorsOnly: true
+    checkstyle: logs/jslint-ui.xml
+
+test:
+  src:
+    - 'test/**/*.jstd'
+    - 'test/**/*.js'
+    - '!test/stubs/**'
+  directives:
+    browser: true
+    regexp: true
+    predef:
+      - $
+      - travi
+      - sinon
+      - assert
+      - refute
+  options:
+    errorsOnly: true
+    checkstyle: logs/jslint-ui-test.xml

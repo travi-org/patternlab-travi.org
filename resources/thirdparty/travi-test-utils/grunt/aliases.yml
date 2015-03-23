@@ -1,0 +1,3 @@
+gates: jslint
+
+default: gates

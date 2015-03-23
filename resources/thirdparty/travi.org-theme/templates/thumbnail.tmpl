@@ -1,0 +1,3 @@
+{{for images}}
+<li{{if mobile}} class="video"{{/if}}><a href="{{if original}}{{>original}}{{else mobile}}{{>mobile}}{{/if}}"><img src="{{>thumbnail.url}}" data-preview="{{>preview}}"{{if mobile}} data-mobile="{{>mobile}}" data-standard="{{>standard}}" data-high-def="{{>highDef}}" data-width="{{>width}}" data-height="{{>height}}"{{/if}}/></a></li>
+{{/for}}

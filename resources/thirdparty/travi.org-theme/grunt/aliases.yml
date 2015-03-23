@@ -1,8 +1,14 @@
 default: verify
 
-verify: lint
+verify:
+  - lint
+  - test
 
-lint: scsslint
+test: karma
+lint:
+  - scsslint
+  - jslint
+  - jscs
 
 build:
   - clean
