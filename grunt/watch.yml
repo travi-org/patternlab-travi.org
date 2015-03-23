@@ -4,8 +4,8 @@ html:
     - '<%= paths.dest.css %>/**/*.css'
     - '<%= paths.dest.js %>/**/*.js'
     - '<%= paths.dest.bower %>/travi*/**/*.{css,js,jpg,png}'
-    - '!<%= paths.dest.bower %>/travi*/bower_components/**/*.{css,js,jpg,png}'
-    - '!<%= paths.dest.bower %>/travi*/node_modules/**/*.{css,js,jpg,png}'
+    - '!<%= paths.dest.bower %>/travi*/bower_components/**/*'
+    - '!<%= paths.dest.bower %>/travi*/node_modules/**/*'
     - 'source/_data/*.json'
   tasks:
     - shell:patternlab
