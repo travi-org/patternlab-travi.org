@@ -1,5 +1,7 @@
 /*global Reflection*/
 
+travi.templates.preLoad('previewPane', '/resources/thirdparty/travi.org-theme/templates/previewPane.tmpl');
+
 (function () {
     'use strict';
 
