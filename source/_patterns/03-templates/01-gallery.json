@@ -1,0 +1,9 @@
+{
+    "extra": {
+        "js": [
+            { "src": "/resources/thirdparty/travi.org-theme/thirdparty/reflection/reflection.js" },
+            { "src": "/resources/thirdparty/travi.org-theme/js/photos/previewPane.js" },
+            { "src": "/resources/thirdparty/travi.org-theme/js/photos/gallery.js" }
+        ]
+    }
+}
