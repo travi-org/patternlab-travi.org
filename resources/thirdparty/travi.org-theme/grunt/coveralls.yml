@@ -1,0 +1,2 @@
+options:
+  coverage_dir: 'logs/coverage'

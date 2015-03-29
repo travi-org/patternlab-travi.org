@@ -51,6 +51,16 @@ travi.templates.preLoad('previewPane', '/resources/thirdparty/travi.org-theme/te
         }
     }
 
+    function initializeLightbox($previewContainer) {
+        $previewContainer.find('a').lightBox({
+            imageLoading: '/resources/thirdparty/travi.org-theme/thirdparty/lightbox/images/lightbox-ico-loading.gif',
+            imageBtnClose: '/resources/thirdparty/travi.org-theme/thirdparty/lightbox/images/lightbox-btn-close.gif',
+            imageBtnPrev: '/resources/thirdparty/travi.org-theme/thirdparty/lightbox/images/lightbox-btn-prev.gif',
+            imageBtnNext: '/resources/thirdparty/travi.org-theme/thirdparty/lightbox/images/lightbox-btn-next.gif',
+            imageBlank: '/resources/thirdparty/travi.org-theme/thirdparty/lightbox/images/lightbox-blank.gif'
+        });
+    }
+
     function initPreviewPane() {
         templates.render('previewPane', {}, function (renderedTemplate) {
             $('div.section').append(renderedTemplate);
@@ -62,7 +72,7 @@ travi.templates.preLoad('previewPane', '/resources/thirdparty/travi.org-theme/te
                 $loadingIndicator: $('#preview_loading')
             };
 
-            elements.$previewContainer.find('a').lightBox();
+            initializeLightbox(elements.$previewContainer);
             elements.$preview.load(function (e) {
                 elements.$loadingIndicator.hide();
                 Reflection.add(e.target);

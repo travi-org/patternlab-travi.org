@@ -23,11 +23,11 @@
     "travi-test-utils": "0.5.1"
   },
   "homepage": "https://github.com/travi/travi-core",
-  "_release": "44391fb342",
+  "_release": "8257bf0c51",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "44391fb3421c46983e8f961481d46ab1bdcf37af"
+    "commit": "8257bf0c51f5a4db0aa3ebbed52011c975f38a6a"
   },
   "_source": "git://github.com/travi/travi-core.git",
   "_target": "master",

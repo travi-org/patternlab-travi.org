@@ -12,7 +12,7 @@
  * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
  */
 
-// Offering a Custom Alias suport - More info: http://docs.jquery.com/Plugins/Authoring#Custom_Alias
+// Offering a Custom Alias support - More info: http://docs.jquery.com/Plugins/Authoring#Custom_Alias
 (function($) {
     /**
      * $ is an alias to jQuery object
@@ -27,11 +27,11 @@
             // Configuration related to navigation
             fixedNavigation:		false,		// (boolean) Boolean that informs if the navigation (next and prev button) will be fixed or not in the interface.
             // Configuration related to images
-            imageLoading:			'/resources/thirdparty/travi-styles/thirdparty/jquery/plugins/lightbox/images/lightbox-ico-loading.gif',		// (string) Path and the name of the loading icon
-            imageBtnPrev:			'/resources/thirdparty/travi-styles/thirdparty/jquery/plugins/lightbox/images/lightbox-btn-prev.gif',			// (string) Path and the name of the prev button image
-            imageBtnNext:			'/resources/thirdparty/travi-styles/thirdparty/jquery/plugins/lightbox/images/lightbox-btn-next.gif',			// (string) Path and the name of the next button image
-            imageBtnClose:			'/resources/thirdparty/travi-styles/thirdparty/jquery/plugins/lightbox/images/lightbox-btn-close.gif',		// (string) Path and the name of the close btn
-            imageBlank:				'/resources/thirdparty/travi-styles/thirdparty/jquery/plugins/lightbox/images/lightbox-blank.gif',			// (string) Path and the name of a blank image (one pixel)
+            imageLoading:			'images/lightbox-ico-loading.gif',		// (string) Path and the name of the loading icon
+            imageBtnPrev:			'images/lightbox-btn-prev.gif',			// (string) Path and the name of the prev button image
+            imageBtnNext:			'images/lightbox-btn-next.gif',			// (string) Path and the name of the next button image
+            imageBtnClose:			'images/lightbox-btn-close.gif',		// (string) Path and the name of the close btn
+            imageBlank:				'images/lightbox-blank.gif',			// (string) Path and the name of a blank image (one pixel)
             // Configuration related to container image box
             containerBorderSize:	10,			// (integer) If you adjust the padding in the CSS for the container, #lightbox-container-image-box, you will need to update this value
             containerResizeSpeed:	400,		// (integer) Specify the resize duration of container image. These number are miliseconds. 400 is default.

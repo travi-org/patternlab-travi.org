@@ -17,12 +17,14 @@ test:
   directives:
     browser: true
     regexp: true
+    unparam: true
     predef:
       - $
       - travi
       - sinon
       - assert
       - refute
+      - expectAsserts
   options:
     errorsOnly: true
     checkstyle: logs/jslint-ui-test.xml
