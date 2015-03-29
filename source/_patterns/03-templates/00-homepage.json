@@ -1,0 +1,9 @@
+{
+	"extra": {
+		"js": [
+			{ "src": "/resources/thirdparty/jquery-equalizebottoms/jquery.ba-equalizebottoms.js" },
+			{ "src": "/resources/thirdparty/travi.org-theme/js/org.js" },
+			{ "src": "/resources/thirdparty/travi.org-theme/js/home.js" }
+		]
+	}
+}
