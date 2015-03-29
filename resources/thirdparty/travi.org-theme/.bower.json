@@ -23,11 +23,11 @@
   "resolutions": {
     "jquery": "1.11.x"
   },
-  "_release": "d5df5264ab",
+  "_release": "ceee2f0640",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "d5df5264abd8614431de8e98fa0e5b2ac5c1db39"
+    "commit": "ceee2f06405a9e98c4f918ad2d7744fbe1028d44"
   },
   "_source": "git://github.com/travi/travi.org-theme.git",
   "_target": "*",

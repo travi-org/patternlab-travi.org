@@ -15,8 +15,8 @@ module.exports = function (config) {
             'bower_components/jquery-equalizebottoms/jquery.ba-equalizebottoms.js',
             'thirdparty/lightbox/jquery.lightbox.js',
 
-            'test/stubs/sublimevideo.js',
-            'test/stubs/ReflectionStub.js',
+            'thirdparty/stubs/sublimevideo.js',
+            'thirdparty/stubs/ReflectionStub.js',
             'bower_components/travi-test-utils/stubs/modernizrStub.js',
             'bower_components/travi-test-utils/stubs/amplifyStub.js',
 
