@@ -37,9 +37,6 @@
     },
     "wymeditor": {
       ".": "dist/wymeditor"
-    },
-    "travi.org-theme": {
-      "test": "test"
     }
   }
 }
