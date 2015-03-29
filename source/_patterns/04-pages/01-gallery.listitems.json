@@ -4,118 +4,178 @@
 			"thumbnail": {
 				"src": "http://placeimg.com/75/75/arch",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/tech",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"2": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/nature",
+				"src": "http://placeimg.com/75/75/nature",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/people",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"3": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/tech",
+				"src": "http://placeimg.com/75/75/tech",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/nature",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"4": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/animals",
+				"src": "http://placeimg.com/75/75/animals",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/people/greyscale",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"5": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/arch/sepia",
+				"src": "http://placeimg.com/75/75/arch/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/arch",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"6": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/animals/grayscale",
+				"src": "http://placeimg.com/75/75/animals/grayscale",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/people/grayscale",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"7": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/tech/grayscale",
+				"src": "http://placeimg.com/75/75/tech/grayscale",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/any",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"8": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/nature/grayscale",
+				"src": "http://placeimg.com/75/75/nature/grayscale",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/any/grayscale",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"9": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/people/grayscale",
+				"src": "http://placeimg.com/75/75/people/grayscale",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/any/sepia",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"10": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/any/sepia",
+				"src": "http://placeimg.com/75/75/any/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/arch/grayscale",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"11": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/nature/sepia",
+				"src": "http://placeimg.com/75/75/nature/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/arch/sepia",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"12": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/tech/sepia",
+				"src": "http://placeimg.com/75/75/tech/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/people/sepia",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"13": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/animals/sepia",
+				"src": "http://placeimg.com/75/75/animals/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/animals/sepia",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"14": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/arch/sepia",
+				"src": "http://placeimg.com/75/75/arch/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/arch/sepia",
+				"alt": "4x3 Image"
 			}
 		}
 	},
 	"15": {
 		"img": {
 			"thumbnail": {
-				"src": "http://placeimg.com/640/360/people/sepia",
+				"src": "http://placeimg.com/75/75/people/sepia",
 				"alt": "Thumbnail"
+			},
+			"landscape-4x3": {
+				"src": "http://placeimg.com/600/450/people/sepia",
+				"alt": "4x3 Image"
 			}
 		}
 	}
