@@ -16,9 +16,7 @@ bower:
     - '<%= paths.src.bower %>/travi*/**/*.{scss,css,js}'
     - '!<%= paths.src.bower %>/travi*/bower_components/**/*'
     - '!<%= paths.src.bower %>/travi*/node_modules/**/*'
-  tasks:
-    - bower
-    - notify:bower
+  tasks: dependencies
 
 styles:
   files:
