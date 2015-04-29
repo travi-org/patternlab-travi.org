@@ -1,18 +1,12 @@
 <ul class="sg-colors">
-	<li>
-		<span class="sg-swatch" style="background: #f00;"></span>
-		<span class="sg-label">#f00</span>
-	</li>
-	<li>
-		<span class="sg-swatch" style="background: #c80000;"></span>
-		<span class="sg-label">#c80000</span>
-	</li>
-	<li>
-		<span class="sg-swatch" style="background: #000000;"></span>
-		<span class="sg-label">#000000</span>
-	</li>
-	<li>
-		<span class="sg-swatch" style="background: #ffffff;"></span>
-		<span class="sg-label">#ffffff</span>
-	</li>
+  {{#theme-colors}}
+    <li>
+      <div class="sg-swatch" style="background: {{value}};"></div>
+      <div class="sg-info">
+        <h6>{{value}}</h6>
+        Sass Variable: <br>
+        {{name}}
+      </div>
+    </li>
+  {{/theme-colors}}
 </ul>

@@ -1,0 +1,16 @@
+{
+  "theme-colors": [
+    {
+      "name": "$theme-black",
+      "value": "#000"
+    },
+    {
+      "name": "$theme-red",
+      "value": "#c80000"
+    },
+    {
+      "name": "$theme-white",
+      "value": "#fff"
+    }
+  ]
+}

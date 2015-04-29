@@ -1,0 +1,11 @@
+theme-colors:
+  options:
+    regex: "^\\$theme-.*"
+  src: bower_components/travi.org-theme/scss/_colors.scss
+  dest: source/_patterns/00-atoms/01-global/00-colors.json
+
+greys:
+  options:
+    regex: "^\\$grey-.*"
+  src: bower_components/travi.org-theme/scss/_colors.scss
+  dest: source/_patterns/00-atoms/01-global/00-greys.json

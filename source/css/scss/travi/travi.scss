@@ -33,3 +33,23 @@ h2.sg-pattern-head {
         color: #808080;
     }
 }
+
+
+$sg-bp-small-2 : 30em;
+.sg-pattern-body .sg-colors {
+    margin-left: 0;
+
+    li {
+        @media all and (min-width: $sg-bp-small-2) {
+            width: 10em;
+        }
+    }
+
+    .sg-swatch {
+        height: 3em;
+    }
+
+    .sg-info, .sg-swatch {
+        display: inline-block;
+    }
+}
