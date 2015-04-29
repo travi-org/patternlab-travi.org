@@ -1,6 +1,6 @@
 // TOP NAVIGATION
 nav {
-    background-color: $dark-red;
+    background-color: $theme-red;
 
     &.sideNav {
         display: none;
@@ -31,7 +31,7 @@ nav {
         text-decoration: none;
 
         &:hover {
-            color: $light-grey;
+            color: $grey-light;
             text-decoration: underline;
         }
     }

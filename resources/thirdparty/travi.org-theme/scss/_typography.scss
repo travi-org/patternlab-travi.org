@@ -1,5 +1,9 @@
+$text-black: $grey-black;
+$text-white: $theme-white;
+$text-red: $theme-red;
+
 ::selection {
-  background: $dark-red;
-  color: $white;
+  background: $theme-red;
+  color: $text-white;
   text-shadow: none;
 }

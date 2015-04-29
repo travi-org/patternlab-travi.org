@@ -1,20 +1,20 @@
 #albumMenu {
-  background: $and-another-grey;
-  color: $another-grey;
+  background: $grey-medium-light;
+  color: $grey-medium-dark;
   font-family: Verdana, Helvetica, Arial, sans-serif;
   margin: 0 0 5px;
   padding: 12px;
 
   a {
-    color: $another-grey;
+    color: $grey-medium-dark;
     text-decoration: none;
 
     &:active {
-      color: $yet-another-grey;
+      color: $grey-slightly-light;
     }
 
     &:hover {
-      color: $dark-grey;
+      color: $grey-dark;
     }
   }
 }
@@ -24,6 +24,6 @@
   text-align: center;
 
   a {
-    color: $black;
+    color: $grey-black;
   }
 }

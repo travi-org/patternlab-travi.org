@@ -1,6 +1,6 @@
 body {
-  background: $black url('/resources/thirdparty/travi.org-theme/img/bg/bg-tireTread.jpg') fixed;
-  color: $white;
+  background: $theme-black url('/resources/thirdparty/travi.org-theme/img/bg/bg-tireTread.jpg') fixed;
+  color: $text-white;
   font: 1em georgia, times, serif;
   font-variant: small-caps;
 
@@ -11,8 +11,8 @@ body {
 
 // OUTER WRAPPER
 #wrap {
-  background: $lighter-grey;
-  color: $black;
+  background: $grey-lighter;
+  color: $text-black;
   text-align: left;
 }
 

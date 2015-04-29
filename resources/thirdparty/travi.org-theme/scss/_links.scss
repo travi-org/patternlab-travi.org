@@ -1,11 +1,11 @@
 a,
 a:visited,
 a:active {
-  color: $theme-red;
+  color: $text-red;
   text-decoration: none;
 }
 
 a:hover {
-  color: $light-grey;
+  color: $grey-light;
   text-decoration: underline;
 }

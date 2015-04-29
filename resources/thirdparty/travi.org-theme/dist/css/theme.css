@@ -330,6 +330,11 @@ a.add-item, .item-action {
 .confirmation .ui-dialog-titlebar-close {
   display: none; }
 
+::selection {
+  background: #c80000;
+  color: #fff;
+  text-shadow: none; }
+
 h1, h1 a, h1 a:visited, h1 a:active {
   color: #fff;
   font-family: "Permanent Marker", "Franklin Gothic Demi Cond", sans-serif;
@@ -340,7 +345,7 @@ h1, h1 a, h1 a:visited, h1 a:active {
 
 h2, .entity-list-header {
   background: #c80000;
-  border: 1px solid #111;
+  border: 1px solid #000;
   color: #111;
   font: 1.75em Impact, sans-serif;
   font-variant: small-caps;
@@ -355,11 +360,6 @@ h2 .sectionNav {
 
 h2 a, h2 a:active, h2 a:visited {
   color: #111; }
-
-::selection {
-  background: #c80000;
-  color: #fff;
-  text-shadow: none; }
 
 a, a:visited, a:active {
   color: #c80000;
@@ -376,7 +376,7 @@ header {
   text-align: left; }
 
 body {
-  background: #111 url('/resources/thirdparty/travi.org-theme/img/bg/bg-tireTread.jpg') fixed;
+  background: #000 url('/resources/thirdparty/travi.org-theme/img/bg/bg-tireTread.jpg') fixed;
   color: #fff;
   font: 1em georgia, times, serif;
   font-variant: small-caps; }
@@ -393,7 +393,7 @@ body {
 
 footer {
   background-color: transparent;
-  border-top: 1px solid #111;
+  border-top: 1px solid #000;
   font-size: .75em;
   font-variant: small-caps;
   margin-top: 5px; }

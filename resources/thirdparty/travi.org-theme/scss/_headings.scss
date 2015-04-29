@@ -2,20 +2,20 @@ h1,
 h1 a,
 h1 a:visited,
 h1 a:active {
-  color: $white;
+  color: $text-white;
   font-family: "Permanent Marker", "Franklin Gothic Demi Cond", sans-serif;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
-  text-shadow: 5px 5px 5px $black;
+  text-shadow: 5px 5px 5px $text-black;
 }
 
 // SECTION TITLE
 h2,
 .entity-list-header {
   background: $theme-red;
-  border: 1px solid $black;
-  color: $black;
+  border: 1px solid $theme-black;
+  color: $text-black;
   font: 1.75em Impact, sans-serif;
   font-variant: small-caps;
   margin: 5px 0;
@@ -32,5 +32,5 @@ h2 .sectionNav {
 h2 a,
 h2 a:active,
 h2 a:visited {
-  color: $black;
+  color: $text-black;
 }

@@ -5,6 +5,11 @@
   background-size: 25px;
   background-position: inherit; }
 
+::selection {
+  background: #c80000;
+  color: #fff;
+  text-shadow: none; }
+
 header {
   background: transparent url('/resources/thirdparty/travi.org-theme/img/titleBanners/truckApex.jpg') no-repeat;
   border-top: 1px solid #fff;
@@ -29,7 +34,7 @@ header {
 
 #content {
   background-color: transparent;
-  border-top: 1px solid #111;
+  border-top: 1px solid #000;
   color: #111;
   display: inline;
   float: right;
