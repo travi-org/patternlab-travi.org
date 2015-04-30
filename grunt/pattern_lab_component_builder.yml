@@ -9,3 +9,9 @@ greys:
     regex: "^\\$grey-.*"
   src: bower_components/travi.org-theme/scss/_colors.scss
   dest: source/_patterns/00-atoms/01-global/00-greys.json
+
+fonts:
+  options:
+    regex: "^\\$font-.*"
+  src: bower_components/travi.org-theme/scss/typography/_variables.scss
+  dest: source/_patterns/00-atoms/01-global/01-fonts.json
