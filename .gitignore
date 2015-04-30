@@ -10,5 +10,6 @@ bower_components/
 source/favicon.ico
 source/resources/thirdparty
 source/css/**/*.css*
+source/_patterns/00-atoms/01-global/*.json
 
 public/*
