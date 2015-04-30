@@ -355,7 +355,7 @@ h2, .entity-list-header {
 
 h2 .sectionNav {
   float: right;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
   font-size: .55em; }
 
 h2 a, h2 a:active, h2 a:visited {
