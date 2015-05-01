@@ -6,7 +6,7 @@ theme-colors:
 
 greys:
   options:
-    regex: "^\\$grey-.*"
+    regex: "^\\$grey.*"
   src: bower_components/travi.org-theme/scss/_colors.scss
   dest: source/_patterns/00-atoms/01-global/00-greys.json
 
