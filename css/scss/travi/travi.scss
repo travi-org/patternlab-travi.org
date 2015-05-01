@@ -3,6 +3,8 @@ $resources-directory: "../";
 @import "../../../resources/thirdparty/travi.org-theme/scss/theme";
 @import "../../../resources/thirdparty/travi.org-theme/scss/theme_d";
 
+@import "../../../resources/thirdparty/travi.org-theme/scss/lists/placeholders";
+
 @import "variables";
 @import "variables_d";
 
@@ -19,6 +21,14 @@ $resources-directory: "../";
 @import "../../../resources/thirdparty/travi.org-theme/scss/gallery/gallery";
 @import "../../../resources/thirdparty/travi.org-theme/scss/gallery/gallery_d";
 
+#atoms-fonts dl {
+    @extend %inline-dl;
+    margin-bottom: 20px;
+
+    dt {
+        margin-right: 10px;
+    }
+}
 
 #organisms-header .sg-pattern-body {
     width: $wrap-width;
@@ -33,7 +43,6 @@ h2.sg-pattern-head {
         color: #808080;
     }
 }
-
 
 $sg-bp-small-2 : 30em;
 .sg-pattern-body .sg-colors {
