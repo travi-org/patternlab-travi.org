@@ -7,11 +7,11 @@ options:
 travi:
   files:
     - expand: true
-      cwd: source/css/scss/travi
+      cwd: '<%= paths.src.scss %>/travi'
       src: '**/*.scss'
       dest: source/css
       ext: .css
 
 patternlab:
-  src: source/css/style.scss
+  src: '<%= paths.dest.css %>/style.scss'
   dest: source/css/style.css
