@@ -1,0 +1,24 @@
+#topNav {
+  font-size: .85em;
+  text-align: center;
+
+  ul {
+    display: inline;
+
+    li {
+      display: inline;
+      list-style: none;
+    }
+  }
+}
+
+.sideNav {
+  border: 2px solid $theme-black;
+  box-shadow: 3px 3px 4px $theme-black;
+  display: block;
+  font-family: $font-primary;
+  margin: 10px 0 0 -10px;
+  padding: 10px 0;
+  text-align: left;
+  width: 90px;
+}

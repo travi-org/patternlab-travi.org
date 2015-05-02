@@ -1,15 +1,7 @@
-$resources-directory: "../";
-
 @import "../../../resources/thirdparty/travi.org-theme/scss/theme";
 @import "../../../resources/thirdparty/travi.org-theme/scss/theme_d";
 
 @import "../../../resources/thirdparty/travi.org-theme/scss/lists/placeholders";
-
-@import "variables";
-@import "variables_d";
-
-@import "nav";
-@import "nav_d";
 
 @import "headings";
 
@@ -20,6 +12,8 @@ $resources-directory: "../";
 
 @import "../../../resources/thirdparty/travi.org-theme/scss/gallery/gallery";
 @import "../../../resources/thirdparty/travi.org-theme/scss/gallery/gallery_d";
+
+$wrap-width: 750px;
 
 #atoms-fonts dl {
     @extend %inline-dl;
