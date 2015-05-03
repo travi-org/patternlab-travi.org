@@ -1,8 +1,13 @@
 &lt;fieldset&gt;
     &lt;legend&gt;{{ inputs.radios.label }}&lt;/legend&gt;
     &lt;ul class=&quot;choices&quot;&gt;
-        &lt;li&gt;&lt;label for=&quot;radio1&quot;&gt;&lt;input id=&quot;radio1&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot; checked=&quot;checked&quot;&gt; Option 1&lt;/label&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;label for=&quot;radio2&quot;&gt;&lt;input id=&quot;radio2&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot;&gt; Option 2&lt;/label&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;label for=&quot;radio3&quot;&gt;&lt;input id=&quot;radio3&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot;&gt; Option 3&lt;/label&gt;&lt;/li&gt;
+    {{#inputs.radios.choices}}
+        &lt;li&gt;
+            &lt;label&gt;
+                &lt;input name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot; checked=&quot;checked&quot;&gt;
+                {{ label }}
+            &lt;/label&gt;
+        &lt;/li&gt;
+    {{/inputs.radios.choices}}
     &lt;/ul&gt;
 &lt;/fieldset&gt;
