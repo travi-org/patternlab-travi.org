@@ -17,7 +17,12 @@
             "rows": 20
         },
         "radios": {
-            "label": "Request a Reply?"
+            "label": "Request a Reply?",
+            "choices": [
+                {"label": "Yes"},
+                {"label": "No"},
+                {}
+            ]
         }
     },
     "buttons": {
