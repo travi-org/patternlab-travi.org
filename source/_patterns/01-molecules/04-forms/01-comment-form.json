@@ -16,5 +16,10 @@
             "label": "Comment",
             "placeholder": "Write you comment here"
         }
+    },
+    "buttons": {
+        "submit": {
+            "label": "Comment"
+        }
     }
 }

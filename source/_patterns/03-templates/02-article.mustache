@@ -1,23 +1,18 @@
-<div class="page" id="page">
+<div id="wrap">
 	{{> organisms-header }}
-	<div role="main">
-		<div class="l-two-col">
-			<div class="l-main">
-				<article class="article">
-					<header class="article-header">
-						<h1>Article Headline Lorem ipsum dolor sit aweofij</h1>
-						{{> molecules-byline }}
-					</header>
-				</article><!--end .article-->
-				{{> molecules-social-share }}
-				{{> organisms-comment-thread }}
-			</div><!--end l-main-->
 
-			<div class="l-sidebar">
-				{{> organisms-related-posts }}
-				{{> organisms-recent-tweets }}
-			</div><!--end l-sidebar-->
-		</div><!--end l-two-col-->
+	<div id="content">
+		<article class="article">
+			<h2>Article Headline Lorem ipsum dolor sit aweofij</h2>
+			{{> molecules-byline }}
+		</article><!--end .article-->
+		{{> molecules-social-share }}
+		{{> organisms-comment-thread }}
+
+		<div class="l-sidebar">
+			{{> organisms-related-posts }}
+			{{> organisms-recent-tweets }}
+		</div><!--end l-sidebar-->
+		{{> organisms-footer }}
 	</div><!--End role=main-->
-	{{> organisms-footer }}
 </div>
