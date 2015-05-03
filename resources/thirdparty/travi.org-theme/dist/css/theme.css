@@ -335,6 +335,9 @@ a.add-item, .item-action {
   color: #fff;
   text-shadow: none; }
 
+.entry, .accordion {
+  font-size: .75em; }
+
 h1, h1 a, h1 a:visited, h1 a:active {
   color: #fff;
   font-family: "Permanent Marker", "Franklin Gothic Demi Cond", sans-serif;
@@ -360,6 +363,29 @@ h2 .sectionNav {
 
 h2 a, h2 a:active, h2 a:visited {
   color: #111; }
+
+.entry-title, .entry-title a {
+  background: #000;
+  color: #fff;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 3px; }
+
+.entry-title a {
+  color: #fff; }
+
+.entry-title a:hover {
+  color: #c0c0c0; }
+
+h3.entry-title {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 10px; }
+
+.entry-message dt {
+  border-bottom: 1px solid #fff;
+  font-size: 1.5em;
+  padding-left: 0; }
 
 a, a:visited, a:active {
   color: #c80000;
@@ -485,6 +511,11 @@ form {
       color: #fff; }
       form .fieldList fieldset label.ui-state-error {
         width: auto; }
+
+.textInput, .fileInput {
+  background-color: #c0c0c0;
+  border: #c80000 solid 1px;
+  color: #c80000; }
 
 input.ui-state-error, textarea.ui-state-error, select.ui-state-error {
   background-color: #c0c0c0; }

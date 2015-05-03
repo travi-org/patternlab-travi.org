@@ -34,3 +34,34 @@ h2 a:active,
 h2 a:visited {
   color: $text-black;
 }
+
+.entry-title,
+.entry-title a {
+  background: $theme-black;
+  color: $text-white;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 3px;
+}
+
+.entry-title a {
+  color: $text-white;
+}
+
+.entry-title a:hover {
+  color: $grey-light;
+}
+
+// scss-lint:disable QualifyingElement
+h3.entry-title {
+// scss-lint:enable QualifyingElement
+  font-size: 1.5em;
+  margin: 0;
+  padding: 10px;
+}
+
+.entry-message dt {
+  border-bottom: 1px solid $theme-white;
+  font-size: 1.5em;
+  padding-left: 0;
+}

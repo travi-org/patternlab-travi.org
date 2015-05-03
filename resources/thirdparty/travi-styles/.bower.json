@@ -5,11 +5,11 @@
     "package.json"
   ],
   "homepage": "https://github.com/travi/styles",
-  "_release": "b59b210463",
+  "_release": "72130f5a8d",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "b59b21046390987b8c8371501c222aa875197119"
+    "commit": "72130f5a8d59b4108e7036e71330e43abcba0e05"
   },
   "_source": "git://github.com/travi/styles.git",
   "_target": "master",

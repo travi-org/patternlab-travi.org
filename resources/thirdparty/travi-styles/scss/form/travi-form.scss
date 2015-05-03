@@ -1,10 +1,6 @@
 @import '../mixins';
 @import '../core/colors';
-
-$red: #f00;
-$label-gutter: 90px;
-$validation-error-radius: 4px;
-$form-left-gutter-width: 93px;
+@import '../core/variables';
 
 .form {
   font-variant: small-caps;
