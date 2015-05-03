@@ -1,8 +1,7 @@
 <label for="select">{{ inputs.select.label }}</label>
 <select id="select" class="textInput">
-    <optgroup label="Option Group">
-        <option>Option One</option>
-        <option>Option Two</option>
-        <option>Option Three</option>
-    </optgroup>
+    <option value="">Select One</option>
+    {{#inputs.select.choices}}
+        <option>{{ label }}</option>
+    {{/inputs.select.choices}}
 </select>

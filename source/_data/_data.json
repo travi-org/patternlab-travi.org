@@ -47,17 +47,18 @@
 			"rows": 8
 		},
 		"select": {
-			"label": "Select"
+			"label": "Select",
+			"choices": [
+				{"label": "Option 1"},
+				{"label": "Option 2"},
+				{"label": "Option 3"}
+			]
 		},
 		"radios": {
 			"label": "Radios",
 			"choices": [
-				{
-					"label": "Option 1"
-				},
-				{
-					"label": "Option 2"
-				}
+				{"label": "Option 1"},
+				{"label": "Option 2"}
 			]
 		}
 	},

@@ -24,5 +24,28 @@
 		{
 			"headline" : "This is the headline for the latest block"
 		}
-	]
+	],
+	"inputs": {
+        "text": {
+            "label": "Name",
+            "placeholder": "Enter Your Name"
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "Your email address"
+        },
+        "url": {
+            "label": "URL",
+            "placeholder": "Website if you got one"
+        },
+        "textarea": {
+            "label": "Comment",
+            "placeholder": "Write you comment here"
+        }
+    },
+    "buttons": {
+        "submit": {
+            "label": "Comment"
+        }
+    }
 }
