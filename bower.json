@@ -16,10 +16,12 @@
   ],
   "resolutions": {
     "jquery": "1.11.x",
-    "travi-core": "master"
+    "travi-core": "master",
+    "travi-styles": "master"
   },
   "dependencies": {
     "travi-core": "master",
+    "travi-styles": "master",
     "travi.org-theme": "*"
   },
   "exportsOverride": {

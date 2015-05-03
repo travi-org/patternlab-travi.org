@@ -28,6 +28,24 @@
 			"alt": "Thumbnail"
 		}
 	},
+	"inputs": {
+		"text": {
+			"label": "Text Input",
+			"placeholder": "Text Input"
+		},
+		"email": {
+			"label": "Email Address",
+			"placeholder": "name@email.com"
+		},
+		"url": {
+			"label": "Web Address",
+			"placeholder": "http://yoursite.com"
+		},
+		"textarea": {
+			"label": "Textarea",
+			"placeholder": "Enter your message here"
+		}
+	},
 	"headline" : {
 		"short" : "Lorem ipsum dolor sit (37 characters)",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
