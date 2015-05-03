@@ -70,6 +70,12 @@ header {
   background-image: none;
   width: auto; }
 
+.actions {
+  margin: 0;
+  padding-bottom: 25px;
+  padding-right: 43px;
+  padding-top: 25px; }
+
 .section {
   background: #c0c0c0 url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamondplatet.jpg');
   border: 1px solid #818181;

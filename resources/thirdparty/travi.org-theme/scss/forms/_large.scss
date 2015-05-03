@@ -7,3 +7,12 @@
   background-image: none;
   width: auto;
 }
+
+form ol {
+  &.actions {
+    margin: 0;
+    padding-bottom: 25px;
+    padding-right: 43px;
+    padding-top: 25px;
+  }
+}
