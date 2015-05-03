@@ -53,68 +53,75 @@
     </header>
 
     <div id="content">
-        <h2>Recent Activity</h2>
-
         <div class="entry">
-            <div id="recentThumbs">
-                <h3 class="entry-title"><a href="gallery">Recent Photos</a></h3>
-                <div id="thumbContainer" class="entry-message">
-                    <ul class="pagination thumbnail">
-                        <li class="outOfRange">
-                            <a href="/albums/5823881448034071153/images/?offset=-14" class="prev">
-                                    back
-                            </a>
-                        </li>
-                        <li class="outOfRange pipeDivider"> | </li>
+            <form name="feedback" method="post" action="">
+                <fieldset>
+                    <legend>Contact Travi</legend>
+                    <ul class="fieldList">
+                        <li><label for="text">Text Input&nbsp;<abbr title="Required">*</abbr></label>
+<input id="text" type="text" placeholder="Text Input" class="textInput">
+</li>
+                        <li><label for="emailaddress">Email Address</label>
+<input id="emailaddress" type="email" placeholder="name@email.com" class="textInput">
+</li>
+                        <li><label for="select">Select</label>
+<select id="select" class="textInput">
+    <optgroup label="Option Group">
+        <option>Option One</option>
+        <option>Option Two</option>
+        <option>Option Three</option>
+    </optgroup>
+</select>
+</li>
                         <li>
-                            <a href="/albums/5823881448034071153/images/?offset=14" class="more">
-                                    more
-                            </a>
+                            <label for="topic">Topic</label>
+                            <select name="topic" id="topic" class="textInput">
+                                <option value="">Select One</option>
+                                <option value="Question">Question</option>
+                                <option value="Comment">Comment</option>
+                                <option value="Site Suggestion">Site Suggestion</option>
+                                <option value="Report a Bug">Report a Bug</option>
+                                <option value="Propose a Solution to a Problem">Propose a Solution to a Problem</option>
+                            </select>
                         </li>
-                    </ul>
-
-                    <ul id="thumbs"><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li><li><a href="/images/fpo_4x3.png"><img src="../../images/fpo_thumbnail.png" alt="Thumbnail" data-preview="/images/fpo_4x3.png" />
-</a></li></ul>
-
-                    <ul class="pagination thumbnail">
-                        <li class="outOfRange">
-                            <a href="/albums/5823881448034071153/images/?offset=-14" class="prev">
-                                    back
-                            </a>
-                        </li>
-                        <li class="outOfRange pipeDivider"> | </li>
+                        <li><fieldset>
+    <legend>Radios</legend>
+    <ul class="choices">
+        <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label></li>
+        <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label></li>
+        <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
+    </ul>
+</fieldset>
+</li>
                         <li>
-                            <a href="/albums/5823881448034071153/images/?offset=14" class="more">
-                                    more
-                            </a>
+                            <fieldset>
+                                <legend>Request a Reply?</legend>
+                                <ol class="choices">
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="reply" value="pleaseReply" class="radioButton">
+                                            Yes
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="reply" value="noReply" class="radioButton">
+                                            No
+                                        </label>
+                                    </li>
+                                </ol>
+                            </fieldset>
                         </li>
+                        <li><label for="textarea">Textarea</label>
+<textarea id="textarea" rows="8" placeholder="Enter your message here" class="textInput"></textarea>
+</li>
                     </ul>
-                </div>
-            </div>
-            <div class="updateList" id="blogList">
-                <h3 class="entry-title"><a href="/blog/">Blog Entries</a></h3>
-                <dl></dl>
-            </div>
-            <div class="entry">
-                <div class="updateList" id="announcementsList">
-                    <h3 class="entry-title"><a href="/announcements/">Site Announcements</a></h3>
-                    <dl></dl>
-                </div>
-            </div>
+                </fieldset>
+                <ol class="actions">
+                    <li><input type="submit" value="Submit Button"/>
+</li>
+                </ol>
+            </form>
         </div>
 
         <footer id="pageFooter">
@@ -137,9 +144,9 @@
 		
 	<script>
 		// handle injection of items from PHP
-		var patternPartial = "templates-homepage";
-		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-carousel","lineagePath":"..\/..\/patterns\/02-organisms-01-gallery-00-carousel\/02-organisms-01-gallery-00-carousel.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-01-footer\/02-organisms-00-global-01-footer.html"},{"lineagePattern":"molecules-side-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-01-side-nav\/01-molecules-05-navigation-01-side-nav.html"}];
-		var lineageR       = [{"lineagePattern":"pages-homepage","lineagePath":"..\/..\/patterns\/04-pages-00-homepage\/04-pages-00-homepage.html"},{"lineagePattern":"pages-homepage-emergency","lineagePath":"..\/..\/patterns\/04-pages-00-homepage-emergency\/04-pages-00-homepage-emergency.html"}];
+		var patternPartial = "pages-contact";
+		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-01-footer\/02-organisms-00-global-01-footer.html"},{"lineagePattern":"molecules-side-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-01-side-nav\/01-molecules-05-navigation-01-side-nav.html"}];
+		var lineageR       = [];
 		var patternState   = "";
 		var cssEnabled     = false;
 	</script>
@@ -211,8 +218,5 @@
 		<script src="/resources/thirdparty/travi.org-theme/js/video/player.js"> </script>
 		<script src="/resources/thirdparty/travi.org-theme/js/photos/carousel.js"> </script>
 		<!-- <script src="/resources/thirdparty/travi.org-theme/js/photos/thumbnails.js"> </script> -->
-		<script src="/resources/thirdparty/jquery-equalizebottoms/jquery.ba-equalizebottoms.js"> </script>
-		<script src="/resources/thirdparty/travi.org-theme/js/org.js"> </script>
-		<script src="/resources/thirdparty/travi.org-theme/js/home.js"> </script>
 	</body>
 </html>
