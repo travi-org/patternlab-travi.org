@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc,CACZ,MAAM,CAAE,CAAC",
+"sources": ["../../../scss/entities/travi-entities_m.scss"],
+"names": [],
+"file": "travi-entities_m.min.css"
+}

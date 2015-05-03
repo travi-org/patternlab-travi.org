@@ -1,3 +1,5 @@
+@import '../core/colors';
+
 // ADD BUTTON
 a.add-item {
   background-position: 5px 50%;
@@ -77,11 +79,11 @@ ol.entityList {
   }
 
   .actions {
-    border: 1px solid #ccc;
+    border: 1px solid $grey-light;
     margin: 4px 0 0;
     padding: 2px;
-    background: #eaeaea;
-    color: #000;
+    background: $grey-lighter;
+    color: $text-black;
     width: 90%;
   }
 }
@@ -91,6 +93,6 @@ ul.pagination {
   float: none;
 
   a {
-    color: #000;
+    color: $text-black;
   }
 }

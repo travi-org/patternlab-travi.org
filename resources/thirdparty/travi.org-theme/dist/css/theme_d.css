@@ -56,14 +56,19 @@ header {
 .sideNav {
   border: 2px solid #000;
   box-shadow: 3px 3px 4px #000;
-  clear: left;
   display: block;
-  float: left;
   font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
   margin: 10px 0 0 -10px;
   padding: 10px 0;
   text-align: left;
   width: 90px; }
+
+.textInput, .wym_box {
+  width: 480px; }
+
+.ui-dialog form fieldset {
+  background-image: none;
+  width: auto; }
 
 .section {
   background: #c0c0c0 url('/resources/thirdparty/travi.org-theme/img/bg/bg-diamondplatet.jpg');

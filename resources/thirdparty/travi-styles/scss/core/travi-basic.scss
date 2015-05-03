@@ -27,18 +27,18 @@ a.add-item,
 
 // SUBMISSION RESULTS
 .good {
-  background: #fff;
-  color: #000;
+  background: $theme-white;
+  color: $text-black;
   padding: 5px;
-  border: 1px solid #000;
+  border: 1px solid $theme-black;
   font-weight: bold;
 }
 
 .bad {
-  background: #f00;
-  color: #fff;
+  background: $theme-red;
+  color: $text-white;
   padding: 5px;
-  border: 1px solid #fff;
+  border: 1px solid $theme-white;
   font-weight: bold;
 }
 

@@ -1,18 +1,17 @@
 {
   "name": "travi-styles",
-  "version": "0.6.0",
   "ignore": [
     "Gruntfile.js",
     "package.json"
   ],
   "homepage": "https://github.com/travi/styles",
-  "_release": "0.6.0",
+  "_release": "b59b210463",
   "_resolution": {
-    "type": "version",
-    "tag": "v0.6.0",
-    "commit": "3ac92aa7e72b39ea3dbf3fd6cd5d0d40f8a04af5"
+    "type": "branch",
+    "branch": "master",
+    "commit": "b59b21046390987b8c8371501c222aa875197119"
   },
   "_source": "git://github.com/travi/styles.git",
-  "_target": "0.6.0",
+  "_target": "master",
   "_originalSource": "travi-styles"
 }

@@ -1,3 +1,5 @@
+@import 'colors';
+
 img {
   border: 0;
 }
@@ -17,7 +19,7 @@ acronym {
 }
 
 #wrap {
-  background-color: #ddd;
+  background-color: $grey-lighter;
   margin: 0 auto;
 
   p {
@@ -33,7 +35,7 @@ footer,
 
 header,
 footer {
-  background-color: #bbb;
+  background-color: $grey-medium-light;
 }
 
 header h1 {

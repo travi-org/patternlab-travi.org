@@ -1,8 +1,17 @@
-dist:
+compile:
   files:
-    -
-      expand: true
+    - expand: true
       cwd: scss
       src: '**/*.scss'
       dest: dist/css
       ext: .css
+
+dist:
+  options:
+    style: compressed
+  files:
+    - expand: true
+      cwd: scss
+      src: '**/*.scss'
+      dest: dist/css
+      ext: .min.css

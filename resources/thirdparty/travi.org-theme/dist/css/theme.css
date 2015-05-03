@@ -393,12 +393,10 @@ body {
 
 nav {
   background-color: #c80000; }
-  nav.sideNav {
-    display: none; }
 
 #topNav {
   color: #000;
-  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+  font-family: Impact, sans-serif;
   margin: 0;
   padding: 3px; }
   #topNav ul {
@@ -435,33 +433,68 @@ ul.sideNav {
       list-style-type: none;
       padding-left: 5px; }
 
-.sideNav ul {
-  list-style-type: none;
-  margin: 2px 0;
-  padding: 0; }
-.sideNav dl {
-  font-size: .8em;
-  margin: 0;
-  padding: 2px; }
-.sideNav dt {
-  color: #111;
-  font-weight: bolder;
-  margin: 0;
-  padding-left: 3px; }
-.sideNav dd {
-  margin: 0;
-  padding-left: 5px; }
-.sideNav a {
-  color: #fff;
-  display: block;
-  padding: 0 5px 0 10px; }
-  .sideNav a:hover {
-    background: #000;
-    text-decoration: none; }
+.sideNav {
+  display: none; }
+  .sideNav ul {
+    list-style-type: none;
+    margin: 2px 0;
+    padding: 0; }
+  .sideNav dl {
+    font-size: .8em;
+    margin: 0;
+    padding: 2px; }
+  .sideNav dt {
+    color: #111;
+    font-weight: bolder;
+    margin: 0;
+    padding-left: 3px; }
+  .sideNav dd {
+    margin: 0;
+    padding-left: 5px; }
+  .sideNav a {
+    color: #fff;
+    display: block;
+    padding: 0 5px 0 10px; }
+    .sideNav a:hover {
+      background: #000;
+      text-decoration: none; }
 
 .sideNav .sideNav li {
   margin: 0;
   padding: 0; }
+
+form {
+  background-image: url(/resources/thirdparty/travi.org-theme/img/bg/bg-8_trans.png); }
+  form fieldset legend {
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    padding-left: 10px;
+    width: 100%; }
+  form .fieldList {
+    padding-left: 10px; }
+    form .fieldList label {
+      color: #fff; }
+      form .fieldList label.ui-state-error {
+        width: 458px; }
+    form .fieldList fieldset {
+      color: #fff; }
+      form .fieldList fieldset label.ui-state-error {
+        width: auto; }
+
+input.ui-state-error, textarea.ui-state-error, select.ui-state-error {
+  background-color: #c0c0c0; }
+
+fieldset fieldset legend {
+  background-color: transparent; }
+
+.wym_box {
+  border: 1px solid #c80000;
+  margin-bottom: 20px; }
 
 footer {
   background-color: transparent;

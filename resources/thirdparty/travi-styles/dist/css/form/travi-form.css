@@ -10,20 +10,20 @@ fieldset {
 legend {
   font-size: 1.5em; }
 
-ul.fieldList {
+.fieldList {
   list-style-type: none;
   margin: 0; }
-  ul.fieldList li {
+  .fieldList li {
     margin-bottom: 10px; }
-  ul.fieldList > li > label:after {
+  .fieldList > li > label:after {
     content: ':'; }
-  ul.fieldList > li > label.ui-state-error:after {
+  .fieldList > li > label.ui-state-error:after {
     content: ''; }
-  ul.fieldList label {
+  .fieldList label {
     width: 90px;
     display: inline-block;
     vertical-align: top; }
-    ul.fieldList label.ui-state-error {
+    .fieldList label.ui-state-error {
       -moz-border-radius: 4px;
       -webkit-border-radius: 4px;
       border-radius: 4px;
@@ -34,37 +34,34 @@ ul.fieldList {
       color: #fff;
       display: block;
       border: 0;
-      background: #c80000 url("/resources/thirdparty/travi-styles/dist/img/icons/ui-icon-ffffff-alert.png") no-repeat 3px 2px; }
-  ul.fieldList button {
+      background: #f00 url("/resources/thirdparty/travi-styles/dist/img/icons/ui-icon-ffffff-alert.png") no-repeat 3px 2px; }
+  .fieldList button {
     margin-left: 93px; }
-  ul.fieldList fieldset {
+  .fieldList fieldset {
     border: 0;
     padding: 0;
     margin: 3px 0 10px; }
-    ul.fieldList fieldset .choices {
-      margin-left: 90px; }
-    ul.fieldList fieldset li {
+    .fieldList fieldset .choices {
+      margin-left: 93px; }
+    .fieldList fieldset li {
       list-style-type: none; }
-    ul.fieldList fieldset label {
+    .fieldList fieldset label {
       padding: 0;
       width: auto; }
-      ul.fieldList fieldset label.ui-state-error {
-        display: inline;
-        float: right;
+      .fieldList fieldset label.ui-state-error {
         padding-right: 200px;
-        margin-left: 0;
         vertical-align: top; }
-    ul.fieldList fieldset legend {
+    .fieldList fieldset legend {
       margin: 0;
       padding: 0 0 5px;
       font-weight: normal;
       font-size: 1em; }
-      ul.fieldList fieldset legend:after {
+      .fieldList fieldset legend:after {
         content: ':'; }
-  ul.fieldList .notearea {
+  .fieldList .notearea {
     display: inline;
     padding-left: 0; }
-  ul.fieldList .submitButton {
+  .fieldList .submitButton {
     margin-left: 94px;
     clear: both;
     display: block; }
@@ -81,16 +78,8 @@ select.ui-state-error {
   background: #fff none;
   border: 2px solid #f00; }
 
-.textInput {
-  color: #f00;
-  background: #ccc;
-  border: #f00 solid 1px;
-  padding-left: 2px; }
-
+.textInput,
 .fileInput {
-  color: #f00;
-  background: #ccc;
-  border: #f00 solid 1px;
   padding-left: 2px; }
 
 .city {
@@ -112,7 +101,7 @@ select.ui-state-error {
   border: 2px #fff solid; }
 
 .format_trigger {
-  border: 1px solid #eaeaea;
+  border: 1px solid #ddd;
   width: 22px;
   height: 22px;
   background: #fff; }

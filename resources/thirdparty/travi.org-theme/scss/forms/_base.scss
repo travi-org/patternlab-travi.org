@@ -1,0 +1,64 @@
+form {
+  $left-padding: 10px;
+
+  background-image: $translucent-bg-image-dark;
+
+  fieldset legend {
+    background-color: $theme-black;
+    box-sizing: border-box;
+    color: $text-white;
+    font-family: $font-primary;
+    font-size: 2em;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    padding-left: $left-padding;
+    width: 100%;
+  }
+
+  .fieldList {
+    padding-left: $left-padding;
+
+    label {
+      color: $text-white;
+
+      &.ui-state-error {
+        width: 458px;
+      }
+    }
+
+    fieldset {
+      color: $text-white;
+
+      // scss-lint:disable QualifyingElement
+      label.ui-state-error {
+      // scss-lint:enable QualifyingElement
+        width: auto;
+      }
+    }
+  }
+}
+
+.textInput,
+.fileInput {
+  background-color: $grey-light;
+  border: $theme-red solid 1px;
+  color: $text-red;
+
+}
+
+// scss-lint:disable QualifyingElement
+input.ui-state-error,
+textarea.ui-state-error,
+select.ui-state-error {
+// scss-lint:enable QualifyingElement
+  background-color: $grey-light;
+}
+
+fieldset fieldset legend {
+  background-color: transparent;
+}
+
+.wym_box {
+  border: 1px solid $theme-red;
+  margin-bottom: 20px;
+}

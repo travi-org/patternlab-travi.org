@@ -1,12 +1,14 @@
 @import '../mixins';
+@import '../core/colors';
 
 $red: #f00;
 $label-gutter: 90px;
 $validation-error-radius: 4px;
+$form-left-gutter-width: 93px;
 
 .form {
   font-variant: small-caps;
-  color: #fff;
+  color: $text-white;
   padding: 3px;
 }
 
@@ -19,7 +21,7 @@ legend {
   font-size: 1.5em;
 }
 
-ul.fieldList {
+.fieldList {
   list-style-type: none;
   margin: 0;
 
@@ -45,19 +47,19 @@ ul.fieldList {
     &.ui-state-error {
       @include border-radius($validation-error-radius);
       width: auto;
-      margin-left: 93px;
+      margin-left: $form-left-gutter-width;
       padding: 3px 3px 3px 20px;
       margin-top: 3px;
-      color: #fff;
+      color: $text-white;
       display: block;
       border: 0;
-      background: #c80000 url('/resources/thirdparty/travi-styles/dist/img/icons/ui-icon-ffffff-alert.png') no-repeat 3px 2px;
+      background: $error-red url('/resources/thirdparty/travi-styles/dist/img/icons/ui-icon-ffffff-alert.png') no-repeat 3px 2px;
     }
   }
 
 
   button {
-    margin-left: 93px;
+    margin-left: $form-left-gutter-width;
   }
 
   fieldset {
@@ -66,7 +68,7 @@ ul.fieldList {
     margin: 3px 0 10px;
 
     .choices {
-      margin-left: $label-gutter;
+      margin-left: $form-left-gutter-width;
     }
 
     li {
@@ -78,10 +80,7 @@ ul.fieldList {
       width: auto;
 
       &.ui-state-error {
-        display: inline;
-        float: right;
         padding-right: 200px;
-        margin-left: 0;
         vertical-align: top;
       }
     }
@@ -118,21 +117,12 @@ input.ui-state-error,
 textarea.ui-state-error,
 select.ui-state-error {
   @include border-radius($validation-error-radius);
-  background: #fff none;
-  border: 2px solid #f00;
+  background: $theme-white none;
+  border: 2px solid $error-red;
 }
 
-.textInput {
-  color: $red;
-  background: #ccc;
-  border: $red solid 1px;
-  padding-left: 2px;
-}
-
+.textInput,
 .fileInput {
-  color: $red;
-  background: #ccc;
-  border: $red solid 1px;
   padding-left: 2px;
 }
 
@@ -157,18 +147,18 @@ select.ui-state-error {
 }
 
 #date_trigger:hover {
-  border: 2px #fff solid;
+  border: 2px $theme-white solid;
 }
 
 .format_trigger {
-  border: 1px solid #eaeaea;
+  border: 1px solid $grey-lighter;
   width: 22px;
   height: 22px;
-  background: #fff;
+  background: $theme-white;
 }
 
 .format_trigger:hover {
-  border: 1px solid #808080;
+  border: 1px solid $grey;
 }
 
 input.datepicker {

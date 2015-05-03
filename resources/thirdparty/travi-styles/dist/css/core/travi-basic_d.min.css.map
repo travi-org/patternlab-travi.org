@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM,CACJ,KAAK,CAAE,KAAK,CAGd,aAAc,CACZ,eAAe,CAAE,IAAI,CACrB,mBAAmB,CAAE,OAAO",
+"sources": ["../../../scss/core/_baseline_d.scss"],
+"names": [],
+"file": "travi-basic_d.min.css"
+}
