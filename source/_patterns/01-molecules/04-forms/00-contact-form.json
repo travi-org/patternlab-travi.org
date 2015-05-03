@@ -1,0 +1,28 @@
+{
+    "inputs": {
+        "text": {
+            "label": "Your Name",
+            "placeholder": ""
+        },
+        "email": {
+            "label": "Your Email",
+            "placeholder": ""
+        },
+        "select": {
+            "label": "Topic"
+        },
+        "textarea": {
+            "label": "Message",
+            "placeholder": "",
+            "rows": 20
+        },
+        "radios": {
+            "label": "Request a Reply?"
+        }
+    },
+    "buttons": {
+        "submit": {
+            "label": "Send Mail"
+        }
+    }
+}
