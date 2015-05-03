@@ -1,8 +1,7 @@
 &lt;label for=&quot;select&quot;&gt;{{ inputs.select.label }}&lt;/label&gt;
 &lt;select id=&quot;select&quot; class=&quot;textInput&quot;&gt;
-    &lt;optgroup label=&quot;Option Group&quot;&gt;
-        &lt;option&gt;Option One&lt;/option&gt;
-        &lt;option&gt;Option Two&lt;/option&gt;
-        &lt;option&gt;Option Three&lt;/option&gt;
-    &lt;/optgroup&gt;
+    &lt;option value=&quot;&quot;&gt;Select One&lt;/option&gt;
+    {{#inputs.select.choices}}
+        &lt;option&gt;{{ label }}&lt;/option&gt;
+    {{/inputs.select.choices}}
 &lt;/select&gt;
