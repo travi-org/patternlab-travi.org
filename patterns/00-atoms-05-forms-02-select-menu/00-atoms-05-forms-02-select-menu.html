@@ -38,20 +38,21 @@
 
 	</head>
 	<body class="body">
-<div class="tabs">
-	<ul class="tab-list">
-		<li><a href="#" class="active">Tab 1</a></li>
-		<li><a href="#">Tab 2</a></li>
-		<li><a href="#">Tab 3</a></li>
-	</ul>
-</div>
+<label for="select">Select</label>
+<select id="select" class="textInput">
+    <option value="">Select One</option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+</select>
+
 	<!--DO NOT REMOVE-->
 		
 	<script>
 		// handle injection of items from PHP
-		var patternPartial = "molecules-tabs";
+		var patternPartial = "atoms-select-menu";
 		var lineage        = [];
-		var lineageR       = [];
+		var lineageR       = [{"lineagePattern":"molecules-contact-form","lineagePath":"..\/..\/patterns\/01-molecules-04-forms-00-contact-form\/01-molecules-04-forms-00-contact-form.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
 	</script>
