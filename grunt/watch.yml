@@ -1,3 +1,11 @@
+styles:
+  files:
+    - '<%= paths.src.scss %>/**/*.scss'
+    - '<%= paths.dest.bower %>/**/*.scss'
+    - '!<%= paths.dest.bower %>/travi*/bower_components/**/*'
+    - '!<%= paths.dest.bower %>/travi*/node_modules/**/*'
+  tasks: sass
+
 html:
   files:
     - '<%= paths.dest.patterns %>/**/*.{mustache,json}'
@@ -17,9 +25,3 @@ bower:
     - '!<%= paths.src.bower %>/travi*/bower_components/**/*'
     - '!<%= paths.src.bower %>/travi*/node_modules/**/*'
   tasks: dependencies
-
-styles:
-  files:
-    - '<%= paths.src.scss %>/**/*.scss'
-    - '<%= paths.dest.bower %>/**/*.scss'
-  tasks: sass
