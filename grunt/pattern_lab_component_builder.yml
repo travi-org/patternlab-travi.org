@@ -1,6 +1,7 @@
 theme-colors:
   options:
     regex: "^\\$theme-.*"
+    allow_var_values: false
   src: bower_components/travi.org-theme/scss/_colors.scss
   dest: source/_patterns/00-atoms/01-global/00-colors.json
 
