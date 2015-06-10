@@ -1,6 +1,9 @@
 %inline-dl {
   dt {
-    clear: left;
+    &:before {
+      content: '';
+      display: block;
+    }
 
     &:after {
       content: ':';
@@ -9,6 +12,6 @@
 
   dt,
   dd {
-    float: left;
+    display: inline;
   }
 }
