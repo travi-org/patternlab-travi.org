@@ -9,6 +9,9 @@
   "bugs": {
     "url": "https://github.com/travi/patternlab-travi.org/issues"
   },
+  "scripts": {
+    "start": "grunt serve"
+  },
   "homepage": "http://travi.github.io/patternlab-travi.org/",
   "devDependencies": {
     "grunt": "^0.4.5",
